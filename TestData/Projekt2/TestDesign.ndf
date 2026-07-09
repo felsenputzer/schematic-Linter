@@ -1,0 +1,1009 @@
+"SIG_SEC_P"    :       : "B103281"          : "CAPA"            : "01C01"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp123"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "01C01"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp123"
+: "B"                                                                                                                          :              ;
+"GND_IPSU"     : GROUND: "B000021351"       : "CAPA"            : "01C02"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp126"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000021351"       : "CAPA"            : "01C02"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp126"
+: "B"                                                                                                                          :              ;
+"SIG_PRIM_N"   :       : "B103281"          : "CAPA"            : "01C03"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp130"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "01C03"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp130"
+: "B"                                                                                                                          :              ;
+"SIG_SEC_N"    :       : "B103281"          : "CAPA"            : "01C04"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp136"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "01C04"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp136"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B000021351"       : "CAPA"            : "01C05"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp140"
+: "A"                                                                                                                          :              ;
+"GND_IPSU"     : GROUND: "B000021351"       : "CAPA"            : "01C05"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp140"
+: "B"                                                                                                                          :              ;
+"SIG_N"        :       : "B000021351"       : "CAPA"            : "01C06"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp149"
+: "A"                                                                                                                          :              ;
+"GND_EMC3"     : GROUND: "B000021351"       : "CAPA"            : "01C06"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp149"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B103281"          : "CAPA"            : "01C07"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp156"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B103281"          : "CAPA"            : "01C07"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp156"
+: "B"                                                                                                                          :              ;
+"GND_EMC3"     : GROUND: "B000021351"       : "CAPA"            : "01C08"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp167"
+: "A"                                                                                                                          :              ;
+"SIG_P"        :       : "B000021351"       : "CAPA"            : "01C08"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp167"
+: "B"                                                                                                                          :              ;
+"SIG_PRIM_P"   :       : "B103281"          : "CAPA"            : "01C10"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp176"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "01C10"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp176"
+: "B"                                                                                                                          :              ;
+"GND_IPSU"     : GROUND: "B000021843"       : "SERIAL_SCHOTTKY" : "01D01"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp118"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021843"       : "SERIAL_SCHOTTKY" : "01D01"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp118"
+: "C"                                                                                                                          :              ;
+"SIG_PRIM_N"   :       : "B000021843"       : "SERIAL_SCHOTTKY" : "01D01"     : "3"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp118"
+: "CA"                                                                                                                         :              ;
+"SIG_N"        :       : "B000032977"       : "DIODES_LIN1524"  : "01D02"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp127"
+: "C1"                                                                                                                         :              ;
+"GND_EMC3"     : GROUND: "B000032977"       : "DIODES_LIN1524"  : "01D02"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp127"
+: "C2"                                                                                                                         :              ;
+"GND_IPSU"     : GROUND: "B000021843"       : "SERIAL_SCHOTTKY" : "01D03"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp132"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021843"       : "SERIAL_SCHOTTKY" : "01D03"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp132"
+: "C"                                                                                                                          :              ;
+"SIG_PRIM_P"   :       : "B000021843"       : "SERIAL_SCHOTTKY" : "01D03"     : "3"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp132"
+: "CA"                                                                                                                         :              ;
+"GND_EMC3"     : GROUND: "B000032977"       : "DIODES_LIN1524"  : "01D04"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp135"
+: "C1"                                                                                                                         :              ;
+"SIG_P"        :       : "B000032977"       : "DIODES_LIN1524"  : "01D04"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp135"
+: "C2"                                                                                                                         :              ;
+"GND_IPSU"     : GROUND: "B000021843"       : "SERIAL_SCHOTTKY" : "01D05"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp139"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021843"       : "SERIAL_SCHOTTKY" : "01D05"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp139"
+: "C"                                                                                                                          :              ;
+"SIG_SEC_P"    :       : "B000021843"       : "SERIAL_SCHOTTKY" : "01D05"     : "3"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp139"
+: "CA"                                                                                                                         :              ;
+"GND_IPSU"     : GROUND: "B000021843"       : "SERIAL_SCHOTTKY" : "01D06"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp179"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021843"       : "SERIAL_SCHOTTKY" : "01D06"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp179"
+: "C"                                                                                                                          :              ;
+"SIG_SEC_N"    :       : "B000021843"       : "SERIAL_SCHOTTKY" : "01D06"     : "3"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp179"
+: "CA"                                                                                                                         :              ;
+"SIG_N"        :       : "B000032521"       : "FILTER_EMC"      : "01FL01"    : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp153"
+: "L1_1"                                                                                                                       :              ;
+"SIG_P"        :       : "B000032521"       : "FILTER_EMC"      : "01FL01"    : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp153"
+: "L2_1"                                                                                                                       :              ;
+"BLK01/SIGN0018"
+:                      : "B000032521"       : "FILTER_EMC"      : "01FL01"    : "3"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp153"
+: "L2_2"                                                                                                                       :              ;
+"BLK01/SIGN0017"
+:                      : "B000032521"       : "FILTER_EMC"      : "01FL01"    : "4"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp153"
+: "L1_2"                                                                                                                       :              ;
+"GND_IPSU"     : GROUND: "B000028822"       : "RESISTOR"        : "01R01"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp121"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000028822"       : "RESISTOR"        : "01R01"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp121"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000028822"       : "RESISTOR"        : "01R02"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp133"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B000028822"       : "RESISTOR"        : "01R02"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp133"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000026605"       : "RESISTOR"        : "01R03"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp141"
+: "A"                                                                                                                          :              ;
+"SIG_SEC_P"    :       : "B000026605"       : "RESISTOR"        : "01R03"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp141"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B000026605"       : "RESISTOR"        : "01R04"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp142"
+: "A"                                                                                                                          :              ;
+"SIG_PRIM_N"   :       : "B000026605"       : "RESISTOR"        : "01R04"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp142"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000026605"       : "RESISTOR"        : "01R05"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp150"
+: "A"                                                                                                                          :              ;
+"SIG_SEC_N"    :       : "B000026605"       : "RESISTOR"        : "01R05"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp150"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000028822"       : "RESISTOR"        : "01R06"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp157"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000028822"       : "RESISTOR"        : "01R06"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp157"
+: "B"                                                                                                                          :              ;
+"SIG_P"        :       : "B000026179"       : "RESISTOR"        : "01R07"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp165"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "B000026179"       : "RESISTOR"        : "01R07"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp165"
+: "B"                                                                                                                          :              ;
+"SIG_N"        :       : "B000026179"       : "RESISTOR"        : "01R08"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp166"
+: "A"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B000026179"       : "RESISTOR"        : "01R08"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp166"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0017"
+:                      : "B000026605"       : "RESISTOR"        : "01R09"     : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp173"
+: "A"                                                                                                                          :              ;
+"SIG_PRIM_P"   :       : "B000026605"       : "RESISTOR"        : "01R09"     : "2"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp173"
+: "B"                                                                                                                          :              ;
+"BLK01/SIGN0018"
+:                      : "TP-FR4_MED"       : "TESTPOINT"       : "01TP01"    : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp152"
+: "POS"                                                                                                                        :              ;
+"BLK01/SIGN0017"
+:                      : "TP-FR4_MED"       : "TESTPOINT"       : "01TP02"    : "1"  : UNFIXED   : "Z-007656a5-084a-4b10-9dbf-3b3e43690290.cmp163"
+: "POS"                                                                                                                        :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "02C01"                                                                     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp230"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "02C01"                                                                     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp230"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00113"
+:                      : "B103281"          : "CAPA"            : "02C02"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp131"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "02C02"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp131"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00114"
+:                      : "B103281"          : "CAPA"            : "02C03"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp135"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN00147"
+:                      : "B103281"          : "CAPA"            : "02C03"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp135"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "02C04"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp270"
+: "A"                                                                                                                          :              ;
+"RAW_1"        :       : "B103281"          : "CAPA"            : "02C04"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp270"
+: "B"                                                                                                                          :              ;
+"SIG_PRIM_N"   :       : "B177651"          : "RESISTOR"        : "02R01"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp228"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN0019"
+:                      : "B177651"          : "RESISTOR"        : "02R01"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp228"
+: "B"                                                                                                                          :              ;
+"SIG_PRIM_P"   :       : "B177651"          : "RESISTOR"        : "02R02"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp229"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN0011"
+:                      : "B177651"          : "RESISTOR"        : "02R02"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp229"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN0019"
+:                      : "B000026087"       : "RESISTOR"        : "02R03"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp11"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN00114"
+:                      : "B000026087"       : "RESISTOR"        : "02R03"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp11"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN0011"
+:                      : "B000026087"       : "RESISTOR"        : "02R04"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp136"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN00113"
+:                      : "B000026087"       : "RESISTOR"        : "02R04"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp136"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00113"
+:                      : "B200613"          : "RESISTOR"        : "02R05"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp243"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN0016"
+:                      : "B200613"          : "RESISTOR"        : "02R05"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp243"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN0016"
+:                      : "B172234"          : "RESISTOR"        : "02R06"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp242"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B172234"          : "RESISTOR"        : "02R06"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp242"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00114"
+:                      : "B200613"          : "RESISTOR"        : "02R07"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp244"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN00112"
+:                      : "B200613"          : "RESISTOR"        : "02R07"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp244"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00112"
+:                      : "B172234"          : "RESISTOR"        : "02R08"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp241"
+: "A"                                                                                                                          :              ;
+"BLK02/SIGN00147"
+:                      : "B172234"          : "RESISTOR"        : "02R08"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp241"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN00147"
+:                      : "B000026179"       : "RESISTOR"        : "02R09"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp272"
+: "A"                                                                                                                          :              ;
+"RAW_1"        :       : "B000026179"       : "RESISTOR"        : "02R09"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp272"
+: "B"                                                                                                                          :              ;
+"BLK02/SIGN0019"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP01"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp236"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN0011"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP02"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp237"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN00114"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP03"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp186"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN00113"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP04"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp185"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN0016"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP05"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp239"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN00112"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "02TP06"    : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp238"
+: "POS"                                                                                                                        :              ;
+"BLK02/SIGN00147"
+:                      : "B670562"          : "AMPLIFIER-1"     : "02U01"     : "1"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp211"
+: "OUT"                                                                                                                        :              ;
+"BLK02/SIGN00114"
+:                      : "B670562"          : "AMPLIFIER-1"     : "02U01"     : "2"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp211"
+: "IN-"                                                                                                                        :              ;
+"BLK02/SIGN00113"
+:                      : "B670562"          : "AMPLIFIER-1"     : "02U01"     : "3"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp211"
+: "IN+"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-2"     : "02U01"     : "4"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp82"
+: "GND"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-1"     : "02U01"     : "5"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp210"
+: "IN+"                                                                                                                        :              ;
+"BLK02/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "02U01"     : "6"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp210"
+: "IN-"                                                                                                                        :              ;
+"BLK02/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "02U01"     : "7"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp210"
+: "OUT"                                                                                                                        :              ;
+"IPSU_5V"      : POWER : "B670562"          : "AMPLIFIER-2"     : "02U01"     : "8"  : UNFIXED   : "Z-19548ac9-cf5d-4f0b-b743-1eb27264082a.cmp82"
+: "VCC"                                                                                                                        :              ;
+"BLK03/SIGN00113"
+:                      : "B103281"          : "CAPA"            : "03C01"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp131"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "03C01"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp131"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00114"
+:                      : "B103281"          : "CAPA"            : "03C02"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp135"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN00147"
+:                      : "B103281"          : "CAPA"            : "03C02"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp135"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "03C05"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp270"
+: "A"                                                                                                                          :              ;
+"RAW_2"        :       : "B103281"          : "CAPA"            : "03C05"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp270"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "03C08"                                                                     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp230"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "03C08"                                                                     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp230"
+: "B"                                                                                                                          :              ;
+"SIG_SEC_N"    :       : "B177651"          : "RESISTOR"        : "03R01"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp228"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN0019"
+:                      : "B177651"          : "RESISTOR"        : "03R01"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp228"
+: "B"                                                                                                                          :              ;
+"SIG_SEC_P"    :       : "B177651"          : "RESISTOR"        : "03R02"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp229"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN0011"
+:                      : "B177651"          : "RESISTOR"        : "03R02"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp229"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN0019"
+:                      : "B000026087"       : "RESISTOR"        : "03R03"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp11"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN00114"
+:                      : "B000026087"       : "RESISTOR"        : "03R03"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp11"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN0011"
+:                      : "B000026087"       : "RESISTOR"        : "03R04"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp136"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN00113"
+:                      : "B000026087"       : "RESISTOR"        : "03R04"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp136"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00113"
+:                      : "B200613"          : "RESISTOR"        : "03R05"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp243"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN0016"
+:                      : "B200613"          : "RESISTOR"        : "03R05"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp243"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN0016"
+:                      : "B172234"          : "RESISTOR"        : "03R06"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp242"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B172234"          : "RESISTOR"        : "03R06"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp242"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00114"
+:                      : "B200613"          : "RESISTOR"        : "03R07"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp244"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN00112"
+:                      : "B200613"          : "RESISTOR"        : "03R07"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp244"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00112"
+:                      : "B172234"          : "RESISTOR"        : "03R09"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp241"
+: "A"                                                                                                                          :              ;
+"BLK03/SIGN00147"
+:                      : "B172234"          : "RESISTOR"        : "03R09"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp241"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00147"
+:                      : "B000026179"       : "RESISTOR"        : "03R12"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp272"
+: "A"                                                                                                                          :              ;
+"RAW_2"        :       : "B000026179"       : "RESISTOR"        : "03R12"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp272"
+: "B"                                                                                                                          :              ;
+"BLK03/SIGN00114"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP01"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp186"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN00113"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP02"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp185"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN0019"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP19"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp236"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN0011"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP20"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp237"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN00112"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP21"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp238"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN0016"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "03TP22"    : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp239"
+: "POS"                                                                                                                        :              ;
+"BLK03/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "03U01"     : "1"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp210"
+: "OUT"                                                                                                                        :              ;
+"BLK03/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "03U01"     : "2"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp210"
+: "IN-"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-1"     : "03U01"     : "3"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp210"
+: "IN+"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-2"     : "03U01"     : "4"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp82"
+: "GND"                                                                                                                        :              ;
+"BLK03/SIGN00113"
+:                      : "B670562"          : "AMPLIFIER-1"     : "03U01"     : "5"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp211"
+: "IN+"                                                                                                                        :              ;
+"BLK03/SIGN00114"
+:                      : "B670562"          : "AMPLIFIER-1"     : "03U01"     : "6"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp211"
+: "IN-"                                                                                                                        :              ;
+"BLK03/SIGN00147"
+:                      : "B670562"          : "AMPLIFIER-1"     : "03U01"     : "7"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp211"
+: "OUT"                                                                                                                        :              ;
+"IPSU_5V"      : POWER : "B670562"          : "AMPLIFIER-2"     : "03U01"     : "8"  : UNFIXED   : "Z-1aab851f-7ec1-4cfb-9289-31d0615efab7.cmp82"
+: "VCC"                                                                                                                        :              ;
+"BLK04/SIGN00113"
+:                      : "B103281"          : "CAPA"            : "04C01"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp131"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "04C01"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp131"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00114"
+:                      : "B103281"          : "CAPA"            : "04C02"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp135"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN00147"
+:                      : "B103281"          : "CAPA"            : "04C02"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp135"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "04C05"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp270"
+: "A"                                                                                                                          :              ;
+"SIGN001101"   :       : "B103281"          : "CAPA"            : "04C05"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp270"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "04C08"                                                                     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp230"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "04C08"                                                                     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp230"
+: "B"                                                                                                                          :              ;
+"EXT_1_N"      :       : "B177651"          : "RESISTOR"        : "04R01"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp228"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN0019"
+:                      : "B177651"          : "RESISTOR"        : "04R01"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp228"
+: "B"                                                                                                                          :              ;
+"EXT_1_P"      :       : "B177651"          : "RESISTOR"        : "04R02"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp229"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN0011"
+:                      : "B177651"          : "RESISTOR"        : "04R02"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp229"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN0019"
+:                      : "B000026087"       : "RESISTOR"        : "04R03"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp11"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN00114"
+:                      : "B000026087"       : "RESISTOR"        : "04R03"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp11"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN0011"
+:                      : "B000026087"       : "RESISTOR"        : "04R04"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp136"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN00113"
+:                      : "B000026087"       : "RESISTOR"        : "04R04"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp136"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00113"
+:                      : "B200613"          : "RESISTOR"        : "04R05"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp243"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN0016"
+:                      : "B200613"          : "RESISTOR"        : "04R05"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp243"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN0016"
+:                      : "B172234"          : "RESISTOR"        : "04R06"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp242"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B172234"          : "RESISTOR"        : "04R06"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp242"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00114"
+:                      : "B200613"          : "RESISTOR"        : "04R07"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp244"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN00112"
+:                      : "B200613"          : "RESISTOR"        : "04R07"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp244"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00112"
+:                      : "B172234"          : "RESISTOR"        : "04R09"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp241"
+: "A"                                                                                                                          :              ;
+"BLK04/SIGN00147"
+:                      : "B172234"          : "RESISTOR"        : "04R09"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp241"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00147"
+:                      : "B000026179"       : "RESISTOR"        : "04R12"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp272"
+: "A"                                                                                                                          :              ;
+"SIGN001101"   :       : "B000026179"       : "RESISTOR"        : "04R12"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp272"
+: "B"                                                                                                                          :              ;
+"BLK04/SIGN00114"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP01"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp186"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN00113"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP02"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp185"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN0019"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP19"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp236"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN0011"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP20"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp237"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN00112"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP21"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp238"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN0016"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "04TP22"    : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp239"
+: "POS"                                                                                                                        :              ;
+"BLK04/SIGN00147"
+:                      : "B670562"          : "AMPLIFIER-1"     : "04U01"     : "1"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp211"
+: "OUT"                                                                                                                        :              ;
+"BLK04/SIGN00114"
+:                      : "B670562"          : "AMPLIFIER-1"     : "04U01"     : "2"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp211"
+: "IN-"                                                                                                                        :              ;
+"BLK04/SIGN00113"
+:                      : "B670562"          : "AMPLIFIER-1"     : "04U01"     : "3"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp211"
+: "IN+"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-2"     : "04U01"     : "4"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp82"
+: "GND"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-1"     : "04U01"     : "5"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp210"
+: "IN+"                                                                                                                        :              ;
+"BLK04/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "04U01"     : "6"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp210"
+: "IN-"                                                                                                                        :              ;
+"BLK04/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "04U01"     : "7"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp210"
+: "OUT"                                                                                                                        :              ;
+"IPSU_5V"      : POWER : "B670562"          : "AMPLIFIER-2"     : "04U01"     : "8"  : UNFIXED   : "Z-213bb2f2-bb18-40e7-808a-998790cee836.cmp82"
+: "VCC"                                                                                                                        :              ;
+"BLK05/SIGN00113"
+:                      : "B103281"          : "CAPA"            : "05C01"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp131"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "05C01"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp131"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00114"
+:                      : "B103281"          : "CAPA"            : "05C02"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp135"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN00148"
+:                      : "B103281"          : "CAPA"            : "05C02"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp135"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "B103281"          : "CAPA"            : "05C05"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp274"
+: "A"                                                                                                                          :              ;
+"SIGN001100"   :       : "B103281"          : "CAPA"            : "05C05"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp274"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "05C08"                                                                     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp230"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "05C08"                                                                     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp230"
+: "B"                                                                                                                          :              ;
+"EXT_2_N"      :       : "B177651"          : "RESISTOR"        : "05R01"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp228"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN0019"
+:                      : "B177651"          : "RESISTOR"        : "05R01"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp228"
+: "B"                                                                                                                          :              ;
+"EXT_2_P"      :       : "B177651"          : "RESISTOR"        : "05R02"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp229"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN0011"
+:                      : "B177651"          : "RESISTOR"        : "05R02"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp229"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN0019"
+:                      : "B000026087"       : "RESISTOR"        : "05R03"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp11"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN00114"
+:                      : "B000026087"       : "RESISTOR"        : "05R03"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp11"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN0011"
+:                      : "B000026087"       : "RESISTOR"        : "05R04"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp136"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN00113"
+:                      : "B000026087"       : "RESISTOR"        : "05R04"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp136"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00113"
+:                      : "B200613"          : "RESISTOR"        : "05R05"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp243"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN0016"
+:                      : "B200613"          : "RESISTOR"        : "05R05"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp243"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN0016"
+:                      : "B172234"          : "RESISTOR"        : "05R06"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp242"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B172234"          : "RESISTOR"        : "05R06"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp242"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00114"
+:                      : "B200613"          : "RESISTOR"        : "05R07"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp244"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN00112"
+:                      : "B200613"          : "RESISTOR"        : "05R07"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp244"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00112"
+:                      : "B172234"          : "RESISTOR"        : "05R09"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp241"
+: "A"                                                                                                                          :              ;
+"BLK05/SIGN00148"
+:                      : "B172234"          : "RESISTOR"        : "05R09"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp241"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00148"
+:                      : "B000026179"       : "RESISTOR"        : "05R10"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp273"
+: "A"                                                                                                                          :              ;
+"SIGN001100"   :       : "B000026179"       : "RESISTOR"        : "05R10"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp273"
+: "B"                                                                                                                          :              ;
+"BLK05/SIGN00114"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP01"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp186"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN00113"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP02"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp185"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN0019"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP19"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp236"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN0011"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP20"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp237"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN00112"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP21"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp238"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN0016"
+:                      : "TP-FR4_XLOW_D1M7" : "TESTPOINT"       : "05TP22"    : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp239"
+: "POS"                                                                                                                        :              ;
+"BLK05/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "05U01"     : "1"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp210"
+: "OUT"                                                                                                                        :              ;
+"BLK05/SIGN00146"
+:                      : "B670562"          : "AMPLIFIER-1"     : "05U01"     : "2"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp210"
+: "IN-"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-1"     : "05U01"     : "3"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp210"
+: "IN+"                                                                                                                        :              ;
+"GND"          : GROUND: "B670562"          : "AMPLIFIER-2"     : "05U01"     : "4"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp82"
+: "GND"                                                                                                                        :              ;
+"BLK05/SIGN00113"
+:                      : "B670562"          : "AMPLIFIER-1"     : "05U01"     : "5"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp211"
+: "IN+"                                                                                                                        :              ;
+"BLK05/SIGN00114"
+:                      : "B670562"          : "AMPLIFIER-1"     : "05U01"     : "6"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp211"
+: "IN-"                                                                                                                        :              ;
+"BLK05/SIGN00148"
+:                      : "B670562"          : "AMPLIFIER-1"     : "05U01"     : "7"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp211"
+: "OUT"                                                                                                                        :              ;
+"IPSU_5V"      : POWER : "B670562"          : "AMPLIFIER-2"     : "05U01"     : "8"  : UNFIXED   : "Z-0865b3bd-841f-4e23-81d7-2eada34bd778.cmp82"
+: "VCC"                                                                                                                        :              ;
+"GND_EMC3"     : GROUND: "B000021351"       : "CAPA"            : "C01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp231"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021351"       : "CAPA"            : "C01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp231"
+: "B"                                                                                                                          :              ;
+"GND_IPSU"     : GROUND: "B000021351"       : "CAPA"            : "C02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp240"
+: "A"                                                                                                                          :              ;
+"GND_EMC3"     : GROUND: "B000021351"       : "CAPA"            : "C02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp240"
+: "B"                                                                                                                          :              ;
+"IPSU_5V_MEAS" :       : "B000021351"       : "CAPA"            : "C03"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp349"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C03"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp349"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000021351"       : "CAPA"            : "C04"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp296"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C04"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp296"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "C05"                                                                       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp298"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "C05"                                                                       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp298"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "C06"                                                                       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp297"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B465011"          : "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+: "C06"                                                                       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp297"
+: "B"                                                                                                                          :              ;
+"GND_OSC"      : GROUND: "B000031995"       : "CAPA"            : "C07"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp269"
+: "A"                                                                                                                          :              ;
+"SIGN00153"    :       : "B000031995"       : "CAPA"            : "C07"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp269"
+: "B"                                                                                                                          :              ;
+"GND_OSC"      : GROUND: "B000031995"       : "CAPA"            : "C08"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp270"
+: "A"                                                                                                                          :              ;
+"SIGN00151"    :       : "B000031995"       : "CAPA"            : "C08"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp270"
+: "B"                                                                                                                          :              ;
+"EXT_1_SEC"    :       : "B000021351"       : "CAPA"            : "C09"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp366"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C09"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp366"
+: "B"                                                                                                                          :              ;
+"EXT_1_PRIM"   :       : "B000021351"       : "CAPA"            : "C10"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp368"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C10"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp368"
+: "B"                                                                                                                          :              ;
+"EXT_2_SEC"    :       : "B000021351"       : "CAPA"            : "C11"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp370"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C11"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp370"
+: "B"                                                                                                                          :              ;
+"EXT_2_PRIM"   :       : "B000021351"       : "CAPA"            : "C12"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp372"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000021351"       : "CAPA"            : "C12"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp372"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B151664"          : "TRANSIL_BI_DUAL_BIDI"
+: "D01"                                                                       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp236"
+: "1"                                                                                                                          : PACKAGESYMBOL;
+"GND_IPSU"     : GROUND: "B151664"          : "TRANSIL_BI_DUAL_BIDI"
+: "D01"                                                                       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp236"
+: "2"                                                                                                                          : PACKAGESYMBOL;
+"GND_EMC3"     : GROUND: "B151664"          : "TRANSIL_BI_DUAL_BIDI"
+: "D01"                                                                       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp236"
+: "3"                                                                                                                          : PACKAGESYMBOL;
+"IPSU_5V"      : POWER : "B000068555"       : "SFH425"          : "D02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp276"
+: "C"                                                                                                                          :              ;
+"SIGN00158"    :       : "B000068555"       : "SFH425"          : "D02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp276"
+: "A"                                                                                                                          :              ;
+"SIGN00159"    :       : "B000068555"       : "SFH425"          : "D03"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp277"
+: "C"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000068555"       : "SFH425"          : "D03"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp277"
+: "A"                                                                                                                          :              ;
+"SIGN00160"    :       : "B000068555"       : "SFH425"          : "D04"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp278"
+: "C"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000068555"       : "SFH425"          : "D04"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp278"
+: "A"                                                                                                                          :              ;
+"P5_SENS_EXT"  : POWER : "B200590"          : "DOUBLE_CHOKES"   : "FL01"      : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp230"
+: "L1_1"                                                                                                                       :              ;
+"GND"          : GROUND: "B200590"          : "DOUBLE_CHOKES"   : "FL01"      : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp230"
+: "L2_1"                                                                                                                       :              ;
+"GND_IPSU"     : GROUND: "B200590"          : "DOUBLE_CHOKES"   : "FL01"      : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp230"
+: "L2_2"                                                                                                                       :              ;
+"IPSU_5V"      : POWER : "B200590"          : "DOUBLE_CHOKES"   : "FL01"      : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp230"
+: "L1_2"                                                                                                                       :              ;
+"SIGN00174"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp313"
+: "PIN"                                                                                                                        :              ;
+"SIGN00175"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp314"
+: "PIN"                                                                                                                        :              ;
+"SIGN00176"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp315"
+: "PIN"                                                                                                                        :              ;
+"SIGN00177"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp316"
+: "PIN"                                                                                                                        :              ;
+"SIGN00178"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp317"
+: "PIN"                                                                                                                        :              ;
+"SIGN00179"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp318"
+: "PIN"                                                                                                                        :              ;
+"SIGN00180"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp319"
+: "PIN"                                                                                                                        :              ;
+"SIGN00181"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp320"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "T1" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp321"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J01"       : "T2" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp322"
+: "PIN"                                                                                                                        :              ;
+"SIGN00182"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp323"
+: "PIN"                                                                                                                        :              ;
+"SIGN00183"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp324"
+: "PIN"                                                                                                                        :              ;
+"SIGN00184"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp325"
+: "PIN"                                                                                                                        :              ;
+"SIGN00185"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp326"
+: "PIN"                                                                                                                        :              ;
+"SIGN00186"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp327"
+: "PIN"                                                                                                                        :              ;
+"SIGN00187"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp328"
+: "PIN"                                                                                                                        :              ;
+"SIGN00188"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp329"
+: "PIN"                                                                                                                        :              ;
+"SIGN00189"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp330"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "T1" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp331"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J02"       : "T2" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp332"
+: "PIN"                                                                                                                        :              ;
+"SIGN00190"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp333"
+: "PIN"                                                                                                                        :              ;
+"SIGN00192"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp334"
+: "PIN"                                                                                                                        :              ;
+"SIGN00191"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp335"
+: "PIN"                                                                                                                        :              ;
+"SIGN00193"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp336"
+: "PIN"                                                                                                                        :              ;
+"SIGN00194"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp337"
+: "PIN"                                                                                                                        :              ;
+"SIGN00195"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp338"
+: "PIN"                                                                                                                        :              ;
+"SIGN00196"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp339"
+: "PIN"                                                                                                                        :              ;
+"SIGN00197"    :       : "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp340"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "T1" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp341"
+: "PIN"                                                                                                                        :              ;
+"GND"          : GROUND: "B000044612"       : "CONNECTOR_8PIN2T": "J03"       : "T2" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp342"
+: "PIN"                                                                                                                        :              ;
+"SIG_P"        :       : "B000021667"       : "CONNECTOR_DBLE"  : "J04"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp262"
+: "A"                                                                                                                          :              ;
+"SIG_N"        :       : "B000021667"       : "CONNECTOR_DBLE"  : "J04"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp262"
+: "B"                                                                                                                          :              ;
+"EXT_1_P"      :       : "B000021667"       : "CONNECTOR_DBLE"  : "J05"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp373"
+: "A"                                                                                                                          :              ;
+"EXT_1_N"      :       : "B000021667"       : "CONNECTOR_DBLE"  : "J05"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp373"
+: "B"                                                                                                                          :              ;
+"EXT_2_P"      :       : "B000021667"       : "CONNECTOR_DBLE"  : "J06"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp374"
+: "A"                                                                                                                          :              ;
+"EXT_2_N"      :       : "B000021667"       : "CONNECTOR_DBLE"  : "J06"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp374"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "2PINSHORT"        : "NET_SHORT2PIN"   : "NET01"     : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp272"
+: "1"                                                                                                                          : PACKAGESYMBOL;
+"GND_OSC"      : GROUND: "2PINSHORT"        : "NET_SHORT2PIN"   : "NET01"     : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp272"
+: "2"                                                                                                                          : PACKAGESYMBOL;
+"GND"          : GROUND: "B000027624"       : "NPNPNP_DIGI_2R-1": "Q01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp254"
+: "E1"                                                                                                                         :              ;
+"RAW_1"        :       : "B000027624"       : "NPNPNP_DIGI_2R-1": "Q01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp254"
+: "B1"                                                                                                                         :              ;
+"FAULT"        :       : "B000027624"       : "NPNPNP_DIGI_2R-1": "Q01"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp254"
+: "C1"                                                                                                                         :              ;
+"GND"          : GROUND: "B000027624"       : "NPNPNP_DIGI_2R-1": "Q02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp255"
+: "E1"                                                                                                                         :              ;
+"RAW_2"        :       : "B000027624"       : "NPNPNP_DIGI_2R-1": "Q02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp255"
+: "B1"                                                                                                                         :              ;
+"FAULT"        :       : "B000027624"       : "NPNPNP_DIGI_2R-1": "Q02"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp255"
+: "C1"                                                                                                                         :              ;
+"P5_SENS_EXT"  : POWER : "B000026179"       : "RESISTOR"        : "R01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp238"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000026179"       : "RESISTOR"        : "R01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp238"
+: "B"                                                                                                                          :              ;
+"GND"          : GROUND: "B000026179"       : "RESISTOR"        : "R02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp242"
+: "A"                                                                                                                          :              ;
+"GND_IPSU"     : GROUND: "B000026179"       : "RESISTOR"        : "R02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp242"
+: "B"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000028343"       : "RESISTOR"        : "R03"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp347"
+: "A"                                                                                                                          :              ;
+"IPSU_5V_MEAS" :       : "B000028343"       : "RESISTOR"        : "R03"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp347"
+: "B"                                                                                                                          :              ;
+"IPSU_5V_MEAS" :       : "B000028343"       : "RESISTOR"        : "R04"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp348"
+: "A"                                                                                                                          :              ;
+"GND"          : GROUND: "B000028343"       : "RESISTOR"        : "R04"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp348"
+: "B"                                                                                                                          :              ;
+"SIGN00171"    :       : "B000028224"       : "RESISTOR"        : "R05"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp289"
+: "A"                                                                                                                          :              ;
+"SCK"          :       : "B000028224"       : "RESISTOR"        : "R05"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp289"
+: "B"                                                                                                                          :              ;
+"FAULT"        :       : "B000031908"       : "RESISTOR"        : "R06"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp256"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000031908"       : "RESISTOR"        : "R06"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp256"
+: "B"                                                                                                                          :              ;
+"FAULT"        :       : "B000031908"       : "RESISTOR"        : "R07"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp257"
+: "A"                                                                                                                          :              ;
+"IPSU_5V"      : POWER : "B000031908"       : "RESISTOR"        : "R07"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp257"
+: "B"                                                                                                                          :              ;
+"SIGN00153"    :       : "B000031878"       : "RESISTOR"        : "R08"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp268"
+: "A"                                                                                                                          :              ;
+"SIGN00152"    :       : "B000031878"       : "RESISTOR"        : "R08"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp268"
+: "B"                                                                                                                          :              ;
+"EN_LED_1"     :       : "B000031908"       : "RESISTOR"        : "R09"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp279"
+: "A"                                                                                                                          :              ;
+"SIGN00158"    :       : "B000031908"       : "RESISTOR"        : "R09"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp279"
+: "B"                                                                                                                          :              ;
+"SCK"          :       : "B000028224"       : "RESISTOR"        : "R10"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp287"
+: "A"                                                                                                                          :              ;
+"SIGN00165"    :       : "B000028224"       : "RESISTOR"        : "R10"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp287"
+: "B"                                                                                                                          :              ;
+"EN_LED_2"     :       : "B000031908"       : "RESISTOR"        : "R11"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp280"
+: "A"                                                                                                                          :              ;
+"SIGN00159"    :       : "B000031908"       : "RESISTOR"        : "R11"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp280"
+: "B"                                                                                                                          :              ;
+"DAT_IN_1"     :       : "B000028224"       : "RESISTOR"        : "R12"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp288"
+: "A"                                                                                                                          :              ;
+"SIGN00163"    :       : "B000028224"       : "RESISTOR"        : "R12"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp288"
+: "B"                                                                                                                          :              ;
+"LCK"          :       : "B000028224"       : "RESISTOR"        : "R13"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp286"
+: "A"                                                                                                                          :              ;
+"SIGN00164"    :       : "B000028224"       : "RESISTOR"        : "R13"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp286"
+: "B"                                                                                                                          :              ;
+"EN_LED_3"     :       : "B000031908"       : "RESISTOR"        : "R14"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp281"
+: "A"                                                                                                                          :              ;
+"SIGN00160"    :       : "B000031908"       : "RESISTOR"        : "R14"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp281"
+: "B"                                                                                                                          :              ;
+"SIGN001102"   :       : "B000031908"       : "RESISTOR"        : "R15"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp360"
+: "A"                                                                                                                          :              ;
+"SIGN001101"   :       : "B000031908"       : "RESISTOR"        : "R15"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp360"
+: "B"                                                                                                                          :              ;
+"SIGN001102"   :       : "B000028343"       : "RESISTOR"        : "R16"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp362"
+: "A"                                                                                                                          :              ;
+"EXT_1_SEC"    :       : "B000028343"       : "RESISTOR"        : "R16"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp362"
+: "B"                                                                                                                          :              ;
+"SIGN001102"   :       : "B000028343"       : "RESISTOR"        : "R17"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp361"
+: "A"                                                                                                                          :              ;
+"EXT_1_PRIM"   :       : "B000028343"       : "RESISTOR"        : "R17"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp361"
+: "B"                                                                                                                          :              ;
+"SIGN001100"   :       : "B000028343"       : "RESISTOR"        : "R18"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp364"
+: "A"                                                                                                                          :              ;
+"EXT_2_SEC"    :       : "B000028343"       : "RESISTOR"        : "R18"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp364"
+: "B"                                                                                                                          :              ;
+"SIGN001100"   :       : "B000028343"       : "RESISTOR"        : "R19"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp363"
+: "A"                                                                                                                          :              ;
+"EXT_2_PRIM"   :       : "B000028343"       : "RESISTOR"        : "R19"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp363"
+: "B"                                                                                                                          :              ;
+"SIGN00175"    :       : "B000028176"       : "74XX595"         : "U01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QB"                                                                                                                         :              ;
+"SIGN00176"    :       : "B000028176"       : "74XX595"         : "U01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QC"                                                                                                                         :              ;
+"SIGN00177"    :       : "B000028176"       : "74XX595"         : "U01"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QD"                                                                                                                         :              ;
+"SIGN00178"    :       : "B000028176"       : "74XX595"         : "U01"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QE"                                                                                                                         :              ;
+"SIGN00179"    :       : "B000028176"       : "74XX595"         : "U01"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QF"                                                                                                                         :              ;
+"SIGN00180"    :       : "B000028176"       : "74XX595"         : "U01"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QG"                                                                                                                         :              ;
+"SIGN00181"    :       : "B000028176"       : "74XX595"         : "U01"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QH"                                                                                                                         :              ;
+"GND"          : GROUND: "B000028176"       : "74XX595"         : "U01"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "GND"                                                                                                                        :              ;
+"OUT1_IN2"     :       : "B000028176"       : "74XX595"         : "U01"       : "9"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "SQH"                                                                                                                        :              ;
+"RESET"        :       : "B000028176"       : "74XX595"         : "U01"       : "10" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "RESET"                                                                                                                      :              ;
+"SIGN00171"    :       : "B000028176"       : "74XX595"         : "U01"       : "11" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "SCK"                                                                                                                        :              ;
+"LCK"          :       : "B000028176"       : "74XX595"         : "U01"       : "12" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "LCK"                                                                                                                        :              ;
+"ENABLE"       :       : "B000028176"       : "74XX595"         : "U01"       : "13" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "OE"                                                                                                                         :              ;
+"DAT_IN_1"     :       : "B000028176"       : "74XX595"         : "U01"       : "14" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "A"                                                                                                                          :              ;
+"SIGN00174"    :       : "B000028176"       : "74XX595"         : "U01"       : "15" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "QA"                                                                                                                         :              ;
+"IPSU_5V"      : POWER : "B000028176"       : "74XX595"         : "U01"       : "16" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp283"
+: "VCC"                                                                                                                        :              ;
+"SIGN00183"    :       : "B000028176"       : "74XX595"         : "U02"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QB"                                                                                                                         :              ;
+"SIGN00184"    :       : "B000028176"       : "74XX595"         : "U02"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QC"                                                                                                                         :              ;
+"SIGN00185"    :       : "B000028176"       : "74XX595"         : "U02"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QD"                                                                                                                         :              ;
+"SIGN00186"    :       : "B000028176"       : "74XX595"         : "U02"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QE"                                                                                                                         :              ;
+"SIGN00187"    :       : "B000028176"       : "74XX595"         : "U02"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QF"                                                                                                                         :              ;
+"SIGN00188"    :       : "B000028176"       : "74XX595"         : "U02"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QG"                                                                                                                         :              ;
+"SIGN00189"    :       : "B000028176"       : "74XX595"         : "U02"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QH"                                                                                                                         :              ;
+"GND"          : GROUND: "B000028176"       : "74XX595"         : "U02"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "GND"                                                                                                                        :              ;
+"OUT2_IN3"     :       : "B000028176"       : "74XX595"         : "U02"       : "9"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "SQH"                                                                                                                        :              ;
+"RESET"        :       : "B000028176"       : "74XX595"         : "U02"       : "10" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "RESET"                                                                                                                      :              ;
+"SCK"          :       : "B000028176"       : "74XX595"         : "U02"       : "11" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "SCK"                                                                                                                        :              ;
+"LCK"          :       : "B000028176"       : "74XX595"         : "U02"       : "12" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "LCK"                                                                                                                        :              ;
+"ENABLE"       :       : "B000028176"       : "74XX595"         : "U02"       : "13" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "OE"                                                                                                                         :              ;
+"OUT1_IN2"     :       : "B000028176"       : "74XX595"         : "U02"       : "14" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "A"                                                                                                                          :              ;
+"SIGN00182"    :       : "B000028176"       : "74XX595"         : "U02"       : "15" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "QA"                                                                                                                         :              ;
+"GND"          : GROUND: "B000028176"       : "74XX595"         : "U02"       : "16" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp284"
+: "VCC"                                                                                                                        :              ;
+"SIGN00191"    :       : "B000028176"       : "74XX595"         : "U03"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QB"                                                                                                                         :              ;
+"SIGN00192"    :       : "B000028176"       : "74XX595"         : "U03"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QC"                                                                                                                         :              ;
+"SIGN00193"    :       : "B000028176"       : "74XX595"         : "U03"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QD"                                                                                                                         :              ;
+"SIGN00194"    :       : "B000028176"       : "74XX595"         : "U03"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QE"                                                                                                                         :              ;
+"SIGN00195"    :       : "B000028176"       : "74XX595"         : "U03"       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QF"                                                                                                                         :              ;
+"SIGN00196"    :       : "B000028176"       : "74XX595"         : "U03"       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QG"                                                                                                                         :              ;
+"SIGN00197"    :       : "B000028176"       : "74XX595"         : "U03"       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QH"                                                                                                                         :              ;
+               :       : "B000028176"       : "74XX595"         : "U03"       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "GND"                                                                                                                        :              ;
+               :       : "B000028176"       : "74XX595"         : "U03"       : "9"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "SQH"                                                                                                                        :              ;
+"RESET"        :       : "B000028176"       : "74XX595"         : "U03"       : "10" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "RESET"                                                                                                                      :              ;
+"SCK"          :       : "B000028176"       : "74XX595"         : "U03"       : "11" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "SCK"                                                                                                                        :              ;
+"LCK"          :       : "B000028176"       : "74XX595"         : "U03"       : "12" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "LCK"                                                                                                                        :              ;
+"OUT2_IN3"     :       : "B000028176"       : "74XX595"         : "U03"       : "13" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "OE"                                                                                                                         :              ;
+"ENABLE"       :       : "B000028176"       : "74XX595"         : "U03"       : "14" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "A"                                                                                                                          :              ;
+"SIGN00190"    :       : "B000028176"       : "74XX595"         : "U03"       : "15" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "QA"                                                                                                                         :              ;
+"IPSU_5V"      : POWER : "B000028176"       : "74XX595"         : "U03"       : "16" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp285"
+: "VCC"                                                                                                                        :              ;
+"EN_LED_1"     :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA2"                                                                                                                        :              ;
+"FAULT"        :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA3"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA4"                                                                                                                        :              ;
+"SIGN00163"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA5"                                                                                                                        :              ;
+"GND"          : GROUND: "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "5"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "VSS1"                                                                                                                       :              ;
+"SIGN00151"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "6"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA7"                                                                                                                        :              ;
+"SIGN00152"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "7"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA6"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "8"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC0"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "9"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC1"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "10" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC2"                                                                                                                        :              ;
+"RAW_1"        :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "11" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC3"                                                                                                                        :              ;
+"RAW_2"        :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "12" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC4"                                                                                                                        :              ;
+"IPSU_5V_MEAS" :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "13" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC5"                                                                                                                        :              ;
+"EXT_2_PRIM"   :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "14" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC6"                                                                                                                        :              ;
+"EXT_2_SEC"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "15" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RC7"                                                                                                                        :              ;
+"GND"          : GROUND: "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "16" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "VSS2"                                                                                                                       :              ;
+"IPSU_5V"      : POWER : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "17" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "VDD"                                                                                                                        :              ;
+"SIGN00164"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "18" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB0"                                                                                                                        :              ;
+"SIGN00165"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "19" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB1"                                                                                                                        :              ;
+"RESET"        :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "20" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB2"                                                                                                                        :              ;
+"ENABLE"       :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "21" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB3"                                                                                                                        :              ;
+"EXT_1_PRIM"   :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "22" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB4"                                                                                                                        :              ;
+"EXT_1_SEC"    :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "23" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB5"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "24" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB6"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "25" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RB7"                                                                                                                        :              ;
+               :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "26" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RE3/MCLR/VPP"                                                                                                               :              ;
+"EN_LED_3"     :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "27" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA0"                                                                                                                        :              ;
+"EN_LED_2"     :       : "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "28" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "RA1"                                                                                                                        :              ;
+"GND"          : GROUND: "B000069554"       : "PIC18F2XK22_QFN28"
+: "U04"                                                                       : "29" : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp263"
+: "TAB"                                                                                                                        :              ;
+"SIGN00151"    :       : "B279226"          : "QUARTZ_NX2016AA" : "Y01"       : "1"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp274"
+: "1"                                                                                                                          :              ;
+"GND_OSC"      : GROUND: "B279226"          : "QUARTZ_NX2016AA" : "Y01"       : "2"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp274"
+: "2"                                                                                                                          :              ;
+"SIGN00153"    :       : "B279226"          : "QUARTZ_NX2016AA" : "Y01"       : "3"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp274"
+: "3"                                                                                                                          :              ;
+"GND_OSC"      : GROUND: "B279226"          : "QUARTZ_NX2016AA" : "Y01"       : "4"  : UNFIXED   : "Z-077b41a5-5392-4f25-8360-8915ff1aba53.cmp274"
+: "4"                                                                                                                          :              ;

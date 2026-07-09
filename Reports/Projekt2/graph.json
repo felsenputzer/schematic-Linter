@@ -1,0 +1,6999 @@
+{
+  "components": {
+    "01C01": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C01",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C02": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C03": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C03",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C04": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C04",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C05": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C05",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C06": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C06",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C07": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C07",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C08": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C08",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01C10": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01C10",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "01D01": {
+      "bom_description": "D SCHOT DUAL SERIAL 200mA 30V BAT54SW SOT323",
+      "comp_types": [
+        "SERIAL_SCHOTTKY"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000021843",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3"
+        }
+      ],
+      "ref_des": "01D01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01D02": {
+      "bom_description": "DIOD TVS BI 15V/24V 160W SOD323",
+      "comp_types": [
+        "DIODES_LIN1524"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000032977",
+      "pins": [
+        {
+          "pin_name": "C1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C2",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01D02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01D03": {
+      "bom_description": "D SCHOT DUAL SERIAL 200mA 30V BAT54SW SOT323",
+      "comp_types": [
+        "SERIAL_SCHOTTKY"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000021843",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3"
+        }
+      ],
+      "ref_des": "01D03",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01D04": {
+      "bom_description": "DIOD TVS BI 15V/24V 160W SOD323",
+      "comp_types": [
+        "DIODES_LIN1524"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000032977",
+      "pins": [
+        {
+          "pin_name": "C1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C2",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01D04",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01D05": {
+      "bom_description": "D SCHOT DUAL SERIAL 200mA 30V BAT54SW SOT323",
+      "comp_types": [
+        "SERIAL_SCHOTTKY"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000021843",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3"
+        }
+      ],
+      "ref_des": "01D05",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01D06": {
+      "bom_description": "D SCHOT DUAL SERIAL 200mA 30V BAT54SW SOT323",
+      "comp_types": [
+        "SERIAL_SCHOTTKY"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000021843",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3"
+        }
+      ],
+      "ref_des": "01D06",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01FL01": {
+      "bom_description": "FL CAN 51uH ACT45B",
+      "comp_types": [
+        "FILTER_EMC"
+      ],
+      "kind": "INDUCTOR",
+      "part_number": "B000032521",
+      "pins": [
+        {
+          "pin_name": "L1_1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "L2_1",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "L2_2",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "L1_2",
+          "pin_number": "4"
+        }
+      ],
+      "ref_des": "01FL01",
+      "value": {
+        "display": "51 \u00b5H",
+        "magnitude": 5.1e-05,
+        "raw": "51uH",
+        "unit": "H"
+      },
+      "value_source": "ebom"
+    },
+    "01R01": {
+      "bom_description": "RC 5.6K 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028822",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R01",
+      "value": {
+        "display": "5.6 kOhm",
+        "magnitude": 5600.0,
+        "raw": "5.6K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R02": {
+      "bom_description": "RC 5.6K 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028822",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R02",
+      "value": {
+        "display": "5.6 kOhm",
+        "magnitude": 5600.0,
+        "raw": "5.6K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R03": {
+      "bom_description": "RC 1K 1% 250mW TF 1206",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026605",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R03",
+      "value": {
+        "display": "1 kOhm",
+        "magnitude": 1000.0,
+        "raw": "1K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R04": {
+      "bom_description": "RC 1K 1% 250mW TF 1206",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026605",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R04",
+      "value": {
+        "display": "1 kOhm",
+        "magnitude": 1000.0,
+        "raw": "1K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R05": {
+      "bom_description": "RC 1K 1% 250mW TF 1206",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026605",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R05",
+      "value": {
+        "display": "1 kOhm",
+        "magnitude": 1000.0,
+        "raw": "1K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R06": {
+      "bom_description": "RC 5.6K 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028822",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R06",
+      "value": {
+        "display": "5.6 kOhm",
+        "magnitude": 5600.0,
+        "raw": "5.6K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R07": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R07",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R08": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R08",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01R09": {
+      "bom_description": "RC 1K 1% 250mW TF 1206",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026605",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "01R09",
+      "value": {
+        "display": "1 kOhm",
+        "magnitude": 1000.0,
+        "raw": "1K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "01TP01": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_MED",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "01TP01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "01TP02": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_MED",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "01TP02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02C01": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02C01",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "02C02": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "02C03": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02C03",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "02C04": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02C04",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "02R01": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R01",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R02": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R02",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R03": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R03",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R04": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R04",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R05": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R05",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R06": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R06",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R07": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R07",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R08": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R08",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02R09": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "02R09",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "02TP01": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02TP02": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02TP03": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP03",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02TP04": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP04",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02TP05": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP05",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02TP06": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "02TP06",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "02U01": {
+      "bom_description": "IC AMP DUAL 3mV/36V LM2904BQPWRQ1 TSSOP8",
+      "comp_types": [
+        "AMPLIFIER-1",
+        "AMPLIFIER-2"
+      ],
+      "kind": "IC",
+      "part_number": "B670562",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8"
+        }
+      ],
+      "ref_des": "02U01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03C01": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03C01",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "03C02": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "03C05": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03C05",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "03C08": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03C08",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "03R01": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R01",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R02": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R02",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R03": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R03",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R04": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R04",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R05": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R05",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R06": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R06",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R07": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R07",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R09": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R09",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03R12": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "03R12",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "03TP01": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03TP02": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03TP19": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP19",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03TP20": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP20",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03TP21": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP21",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03TP22": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "03TP22",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "03U01": {
+      "bom_description": "IC AMP DUAL 3mV/36V LM2904BQPWRQ1 TSSOP8",
+      "comp_types": [
+        "AMPLIFIER-1",
+        "AMPLIFIER-2"
+      ],
+      "kind": "IC",
+      "part_number": "B670562",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8"
+        }
+      ],
+      "ref_des": "03U01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04C01": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04C01",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "04C02": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "04C05": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04C05",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "04C08": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04C08",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "04R01": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R01",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R02": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R02",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R03": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R03",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R04": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R04",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R05": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R05",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R06": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R06",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R07": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R07",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R09": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R09",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04R12": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "04R12",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "04TP01": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04TP02": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04TP19": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP19",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04TP20": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP20",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04TP21": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP21",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04TP22": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "04TP22",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "04U01": {
+      "bom_description": "IC AMP DUAL 3mV/36V LM2904BQPWRQ1 TSSOP8",
+      "comp_types": [
+        "AMPLIFIER-1",
+        "AMPLIFIER-2"
+      ],
+      "kind": "IC",
+      "part_number": "B670562",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8"
+        }
+      ],
+      "ref_des": "04U01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05C01": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05C01",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "05C02": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "05C05": {
+      "bom_description": "CER 1nF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B103281",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05C05",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "05C08": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05C08",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "05R01": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R01",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R02": {
+      "bom_description": "RES 2.2K 0.1% 100mW THIN 25ppm 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B177651",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R02",
+      "value": {
+        "display": "2.2 kOhm",
+        "magnitude": 2200.0,
+        "raw": "2.2K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R03": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R03",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R04": {
+      "bom_description": "RC 200 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026087",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R04",
+      "value": {
+        "display": "200 Ohm",
+        "magnitude": 200.0,
+        "raw": "200",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R05": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R05",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R06": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R06",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R07": {
+      "bom_description": "RES 3.3K 0.1% 100mW THIN 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B200613",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R07",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R09": {
+      "bom_description": "RES 47 1% 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B172234",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R09",
+      "value": {
+        "display": "47 Ohm",
+        "magnitude": 47.0,
+        "raw": "47",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05R10": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "05R10",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "05TP01": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05TP02": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05TP19": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP19",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05TP20": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP20",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05TP21": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP21",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05TP22": {
+      "bom_description": null,
+      "comp_types": [
+        "TESTPOINT"
+      ],
+      "kind": "TESTPOINT",
+      "part_number": "TP-FR4_XLOW_D1M7",
+      "pins": [
+        {
+          "pin_name": "POS",
+          "pin_number": "1"
+        }
+      ],
+      "ref_des": "05TP22",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "05U01": {
+      "bom_description": "IC AMP DUAL 3mV/36V LM2904BQPWRQ1 TSSOP8",
+      "comp_types": [
+        "AMPLIFIER-1",
+        "AMPLIFIER-2"
+      ],
+      "kind": "IC",
+      "part_number": "B670562",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8"
+        }
+      ],
+      "ref_des": "05U01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "C01": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C01",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C02": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C02",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C03": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C03",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C04": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C04",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C05": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C05",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C06": {
+      "bom_description": "CAP 100nF 10% 16V X7R 0402 DECOUPLING",
+      "comp_types": [
+        "SINGLE_DECOUPLING_MLCC_1V8_TO_5V"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B465011",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C06",
+      "value": {
+        "display": "100 nF",
+        "magnitude": 1.0000000000000001e-07,
+        "raw": "100nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C07": {
+      "bom_description": "CER 10pF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000031995",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C07",
+      "value": {
+        "display": "10 pF",
+        "magnitude": 1e-11,
+        "raw": "10pF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C08": {
+      "bom_description": "CER 10pF 5% 50V C0G 0402",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000031995",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C08",
+      "value": {
+        "display": "10 pF",
+        "magnitude": 1e-11,
+        "raw": "10pF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C09": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C09",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C10": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C10",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C11": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C11",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "C12": {
+      "bom_description": "CER 1nF 10% 50V X7R 0603",
+      "comp_types": [
+        "CAPA"
+      ],
+      "kind": "CAPACITOR",
+      "part_number": "B000021351",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "C12",
+      "value": {
+        "display": "1 nF",
+        "magnitude": 1e-09,
+        "raw": "1nF",
+        "unit": "F"
+      },
+      "value_source": "ebom"
+    },
+    "D01": {
+      "bom_description": "DIOD PROT ESD 24V 3.5A SOT323",
+      "comp_types": [
+        "TRANSIL_BI_DUAL_BIDI"
+      ],
+      "kind": "DIODE",
+      "part_number": "B151664",
+      "pins": [
+        {
+          "pin_name": "1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "3",
+          "pin_number": "3"
+        }
+      ],
+      "ref_des": "D01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "D02": {
+      "bom_description": "IR LED 850nm VSMY1850X01 0805",
+      "comp_types": [
+        "SFH425"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000068555",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "D02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "D03": {
+      "bom_description": "IR LED 850nm VSMY1850X01 0805",
+      "comp_types": [
+        "SFH425"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000068555",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "D03",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "D04": {
+      "bom_description": "IR LED 850nm VSMY1850X01 0805",
+      "comp_types": [
+        "SFH425"
+      ],
+      "kind": "DIODE",
+      "part_number": "B000068555",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "D04",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "FL01": {
+      "bom_description": "INDUC COM-MODE 470uH 500/700mA 170mR SMD",
+      "comp_types": [
+        "DOUBLE_CHOKES"
+      ],
+      "kind": "INDUCTOR",
+      "part_number": "B200590",
+      "pins": [
+        {
+          "pin_name": "L1_1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "L2_1",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "L2_2",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "L1_2",
+          "pin_number": "4"
+        }
+      ],
+      "ref_des": "FL01",
+      "value": {
+        "display": "470 \u00b5H",
+        "magnitude": 0.00047,
+        "raw": "470uH",
+        "unit": "H"
+      },
+      "value_source": "ebom"
+    },
+    "J01": {
+      "bom_description": "JST 01x08 SRSS ST NAT",
+      "comp_types": [
+        "CONNECTOR_8PIN2T"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000044612",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "8"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2"
+        }
+      ],
+      "ref_des": "J01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "J02": {
+      "bom_description": "JST 01x08 SRSS ST NAT",
+      "comp_types": [
+        "CONNECTOR_8PIN2T"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000044612",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "8"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2"
+        }
+      ],
+      "ref_des": "J02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "J03": {
+      "bom_description": "JST 01x08 SRSS ST NAT",
+      "comp_types": [
+        "CONNECTOR_8PIN2T"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000044612",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "8"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2"
+        }
+      ],
+      "ref_des": "J03",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "J04": {
+      "bom_description": "PLATE LOUPOT 2.4x0.6 ST POLINE",
+      "comp_types": [
+        "CONNECTOR_DBLE"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000021667",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "J04",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "J05": {
+      "bom_description": "PLATE LOUPOT 2.4x0.6 ST POLINE",
+      "comp_types": [
+        "CONNECTOR_DBLE"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000021667",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "J05",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "J06": {
+      "bom_description": "PLATE LOUPOT 2.4x0.6 ST POLINE",
+      "comp_types": [
+        "CONNECTOR_DBLE"
+      ],
+      "kind": "CONNECTOR",
+      "part_number": "B000021667",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "J06",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "NET01": {
+      "bom_description": "VIRTUAL WIRE CONNEXION ROUND PAD 0.1",
+      "comp_types": [
+        "NET_SHORT2PIN"
+      ],
+      "kind": "OTHER",
+      "part_number": "2PINSHORT",
+      "pins": [
+        {
+          "pin_name": "1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "NET01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "Q01": {
+      "bom_description": "TR-NET N/P BCR08PN SOT363",
+      "comp_types": [
+        "NPNPNP_DIGI_2R-1"
+      ],
+      "kind": "TRANSISTOR",
+      "part_number": "B000027624",
+      "pins": [
+        {
+          "pin_name": "E1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B1",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "C1",
+          "pin_number": "6"
+        }
+      ],
+      "ref_des": "Q01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "Q02": {
+      "bom_description": "TR-NET N/P BCR08PN SOT363",
+      "comp_types": [
+        "NPNPNP_DIGI_2R-1"
+      ],
+      "kind": "TRANSISTOR",
+      "part_number": "B000027624",
+      "pins": [
+        {
+          "pin_name": "E1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B1",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "C1",
+          "pin_number": "6"
+        }
+      ],
+      "ref_des": "Q02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "R01": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R01",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R02": {
+      "bom_description": "RC 0 100mW TF 0603",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000026179",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R02",
+      "value": {
+        "display": "0 Ohm",
+        "magnitude": 0.0,
+        "raw": "0",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R03": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R03",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R04": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R04",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R05": {
+      "bom_description": "RC 22 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028224",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R05",
+      "value": {
+        "display": "22 Ohm",
+        "magnitude": 22.0,
+        "raw": "22",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R06": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R06",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R07": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R07",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R08": {
+      "bom_description": "RC 100 1% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031878",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R08",
+      "value": {
+        "display": "100 Ohm",
+        "magnitude": 100.0,
+        "raw": "100",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R09": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R09",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R10": {
+      "bom_description": "RC 22 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028224",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R10",
+      "value": {
+        "display": "22 Ohm",
+        "magnitude": 22.0,
+        "raw": "22",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R11": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R11",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R12": {
+      "bom_description": "RC 22 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028224",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R12",
+      "value": {
+        "display": "22 Ohm",
+        "magnitude": 22.0,
+        "raw": "22",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R13": {
+      "bom_description": "RC 22 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028224",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R13",
+      "value": {
+        "display": "22 Ohm",
+        "magnitude": 22.0,
+        "raw": "22",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R14": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R14",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R15": {
+      "bom_description": "RES 3.3K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000031908",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R15",
+      "value": {
+        "display": "3.3 kOhm",
+        "magnitude": 3300.0,
+        "raw": "3.3K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R16": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R16",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R17": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R17",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R18": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R18",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "R19": {
+      "bom_description": "RC 47K 5% 63mW TF 0402",
+      "comp_types": [
+        "RESISTOR"
+      ],
+      "kind": "RESISTOR",
+      "part_number": "B000028343",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2"
+        }
+      ],
+      "ref_des": "R19",
+      "value": {
+        "display": "47 kOhm",
+        "magnitude": 47000.0,
+        "raw": "47K",
+        "unit": "ohm"
+      },
+      "value_source": "ebom"
+    },
+    "U01": {
+      "bom_description": "SHFT 74HC595 8bit TSSOP16",
+      "comp_types": [
+        "74XX595"
+      ],
+      "kind": "IC",
+      "part_number": "B000028176",
+      "pins": [
+        {
+          "pin_name": "QB",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "8"
+        },
+        {
+          "pin_name": "SQH",
+          "pin_number": "9"
+        },
+        {
+          "pin_name": "RESET",
+          "pin_number": "10"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12"
+        },
+        {
+          "pin_name": "OE",
+          "pin_number": "13"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16"
+        }
+      ],
+      "ref_des": "U01",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "U02": {
+      "bom_description": "SHFT 74HC595 8bit TSSOP16",
+      "comp_types": [
+        "74XX595"
+      ],
+      "kind": "IC",
+      "part_number": "B000028176",
+      "pins": [
+        {
+          "pin_name": "QB",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "8"
+        },
+        {
+          "pin_name": "SQH",
+          "pin_number": "9"
+        },
+        {
+          "pin_name": "RESET",
+          "pin_number": "10"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12"
+        },
+        {
+          "pin_name": "OE",
+          "pin_number": "13"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16"
+        }
+      ],
+      "ref_des": "U02",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "U03": {
+      "bom_description": "SHFT 74HC595 8bit TSSOP16",
+      "comp_types": [
+        "74XX595"
+      ],
+      "kind": "IC",
+      "part_number": "B000028176",
+      "pins": [
+        {
+          "pin_name": "QB",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "RESET",
+          "pin_number": "10"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12"
+        },
+        {
+          "pin_name": "OE",
+          "pin_number": "13"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16"
+        }
+      ],
+      "ref_des": "U03",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "U04": {
+      "bom_description": "IC FLASH 8bit 64KB PIC18LF26K22 QFN28",
+      "comp_types": [
+        "PIC18F2XK22_QFN28"
+      ],
+      "kind": "IC",
+      "part_number": "B000069554",
+      "pins": [
+        {
+          "pin_name": "RA2",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "RA3",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "RA5",
+          "pin_number": "4"
+        },
+        {
+          "pin_name": "VSS1",
+          "pin_number": "5"
+        },
+        {
+          "pin_name": "RA7",
+          "pin_number": "6"
+        },
+        {
+          "pin_name": "RA6",
+          "pin_number": "7"
+        },
+        {
+          "pin_name": "RC3",
+          "pin_number": "11"
+        },
+        {
+          "pin_name": "RC4",
+          "pin_number": "12"
+        },
+        {
+          "pin_name": "RC5",
+          "pin_number": "13"
+        },
+        {
+          "pin_name": "RC6",
+          "pin_number": "14"
+        },
+        {
+          "pin_name": "RC7",
+          "pin_number": "15"
+        },
+        {
+          "pin_name": "VSS2",
+          "pin_number": "16"
+        },
+        {
+          "pin_name": "VDD",
+          "pin_number": "17"
+        },
+        {
+          "pin_name": "RB0",
+          "pin_number": "18"
+        },
+        {
+          "pin_name": "RB1",
+          "pin_number": "19"
+        },
+        {
+          "pin_name": "RB2",
+          "pin_number": "20"
+        },
+        {
+          "pin_name": "RB3",
+          "pin_number": "21"
+        },
+        {
+          "pin_name": "RB4",
+          "pin_number": "22"
+        },
+        {
+          "pin_name": "RB5",
+          "pin_number": "23"
+        },
+        {
+          "pin_name": "RA0",
+          "pin_number": "27"
+        },
+        {
+          "pin_name": "RA1",
+          "pin_number": "28"
+        },
+        {
+          "pin_name": "TAB",
+          "pin_number": "29"
+        }
+      ],
+      "ref_des": "U04",
+      "value": null,
+      "value_source": "not_applicable"
+    },
+    "Y01": {
+      "bom_description": "QTZ 20MHz 10ppm 5pF SMD",
+      "comp_types": [
+        "QUARTZ_NX2016AA"
+      ],
+      "kind": "CRYSTAL",
+      "part_number": "B279226",
+      "pins": [
+        {
+          "pin_name": "1",
+          "pin_number": "1"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2"
+        },
+        {
+          "pin_name": "3",
+          "pin_number": "3"
+        },
+        {
+          "pin_name": "4",
+          "pin_number": "4"
+        }
+      ],
+      "ref_des": "Y01",
+      "value": {
+        "display": "20 MHz",
+        "magnitude": 20000000.0,
+        "raw": "20MHz",
+        "unit": "Hz"
+      },
+      "value_source": "ebom"
+    }
+  },
+  "metadata": {
+    "bom_file": "BOM_for_purchase_without_TP_Fiducial.csv",
+    "component_count": 157,
+    "generated_at": "2026-07-09 19:57 UTC",
+    "has_bom": true,
+    "has_pdf": true,
+    "net_count": 105,
+    "netlist_file": "TestDesign.ndf",
+    "pdf_file": "TestDesign_To_PCB_System.pdf",
+    "project_name": "Projekt2"
+  },
+  "nets": {
+    "BLK01/SIGN0017": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK01/SIGN0017",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C07"
+        },
+        {
+          "pin_name": "L1_2",
+          "pin_number": "4",
+          "ref_des": "01FL01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R08"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R09"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "01TP02"
+        }
+      ]
+    },
+    "BLK01/SIGN0018": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK01/SIGN0018",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C07"
+        },
+        {
+          "pin_name": "L2_2",
+          "pin_number": "3",
+          "ref_des": "01FL01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R06"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R07"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "01TP01"
+        }
+      ]
+    },
+    "BLK02/SIGN0011": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN0011",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R04"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP02"
+        }
+      ]
+    },
+    "BLK02/SIGN00112": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN00112",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R08"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP06"
+        }
+      ]
+    },
+    "BLK02/SIGN00113": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN00113",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R05"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP04"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3",
+          "ref_des": "02U01"
+        }
+      ]
+    },
+    "BLK02/SIGN00114": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN00114",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02C03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R07"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP03"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2",
+          "ref_des": "02U01"
+        }
+      ]
+    },
+    "BLK02/SIGN00146": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN00146",
+      "pins": [
+        {
+          "pin_name": "IN-",
+          "pin_number": "6",
+          "ref_des": "02U01"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7",
+          "ref_des": "02U01"
+        }
+      ]
+    },
+    "BLK02/SIGN00147": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN00147",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02C03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R08"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R09"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "1",
+          "ref_des": "02U01"
+        }
+      ]
+    },
+    "BLK02/SIGN0016": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN0016",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R06"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP05"
+        }
+      ]
+    },
+    "BLK02/SIGN0019": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK02/SIGN0019",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R03"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "02TP01"
+        }
+      ]
+    },
+    "BLK03/SIGN0011": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN0011",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R04"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP20"
+        }
+      ]
+    },
+    "BLK03/SIGN00112": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN00112",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R09"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP21"
+        }
+      ]
+    },
+    "BLK03/SIGN00113": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN00113",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R05"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP02"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5",
+          "ref_des": "03U01"
+        }
+      ]
+    },
+    "BLK03/SIGN00114": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN00114",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R07"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP01"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6",
+          "ref_des": "03U01"
+        }
+      ]
+    },
+    "BLK03/SIGN00146": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN00146",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1",
+          "ref_des": "03U01"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2",
+          "ref_des": "03U01"
+        }
+      ]
+    },
+    "BLK03/SIGN00147": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN00147",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R09"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R12"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7",
+          "ref_des": "03U01"
+        }
+      ]
+    },
+    "BLK03/SIGN0016": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN0016",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R06"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP22"
+        }
+      ]
+    },
+    "BLK03/SIGN0019": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK03/SIGN0019",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R03"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "03TP19"
+        }
+      ]
+    },
+    "BLK04/SIGN0011": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN0011",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R04"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP20"
+        }
+      ]
+    },
+    "BLK04/SIGN00112": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN00112",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R09"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP21"
+        }
+      ]
+    },
+    "BLK04/SIGN00113": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN00113",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R05"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP02"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3",
+          "ref_des": "04U01"
+        }
+      ]
+    },
+    "BLK04/SIGN00114": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN00114",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R07"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP01"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2",
+          "ref_des": "04U01"
+        }
+      ]
+    },
+    "BLK04/SIGN00146": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN00146",
+      "pins": [
+        {
+          "pin_name": "IN-",
+          "pin_number": "6",
+          "ref_des": "04U01"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7",
+          "ref_des": "04U01"
+        }
+      ]
+    },
+    "BLK04/SIGN00147": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN00147",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R09"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R12"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "1",
+          "ref_des": "04U01"
+        }
+      ]
+    },
+    "BLK04/SIGN0016": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN0016",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R06"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP22"
+        }
+      ]
+    },
+    "BLK04/SIGN0019": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK04/SIGN0019",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R03"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "04TP19"
+        }
+      ]
+    },
+    "BLK05/SIGN0011": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN0011",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R04"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP20"
+        }
+      ]
+    },
+    "BLK05/SIGN00112": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN00112",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R09"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP21"
+        }
+      ]
+    },
+    "BLK05/SIGN00113": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN00113",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R05"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP02"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5",
+          "ref_des": "05U01"
+        }
+      ]
+    },
+    "BLK05/SIGN00114": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN00114",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R07"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP01"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "6",
+          "ref_des": "05U01"
+        }
+      ]
+    },
+    "BLK05/SIGN00146": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN00146",
+      "pins": [
+        {
+          "pin_name": "OUT",
+          "pin_number": "1",
+          "ref_des": "05U01"
+        },
+        {
+          "pin_name": "IN-",
+          "pin_number": "2",
+          "ref_des": "05U01"
+        }
+      ]
+    },
+    "BLK05/SIGN00148": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN00148",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R09"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R10"
+        },
+        {
+          "pin_name": "OUT",
+          "pin_number": "7",
+          "ref_des": "05U01"
+        }
+      ]
+    },
+    "BLK05/SIGN0016": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN0016",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R06"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP22"
+        }
+      ]
+    },
+    "BLK05/SIGN0019": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "BLK05/SIGN0019",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R03"
+        },
+        {
+          "pin_name": "POS",
+          "pin_number": "1",
+          "ref_des": "05TP19"
+        }
+      ]
+    },
+    "DAT_IN_1": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "DAT_IN_1",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R12"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "ENABLE": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "ENABLE",
+      "pins": [
+        {
+          "pin_name": "OE",
+          "pin_number": "13",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "OE",
+          "pin_number": "13",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14",
+          "ref_des": "U03"
+        },
+        {
+          "pin_name": "RB3",
+          "pin_number": "21",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EN_LED_1": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EN_LED_1",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R09"
+        },
+        {
+          "pin_name": "RA2",
+          "pin_number": "1",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EN_LED_2": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EN_LED_2",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R11"
+        },
+        {
+          "pin_name": "RA1",
+          "pin_number": "28",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EN_LED_3": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EN_LED_3",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R14"
+        },
+        {
+          "pin_name": "RA0",
+          "pin_number": "27",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EXT_1_N": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_1_N",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "J05"
+        }
+      ]
+    },
+    "EXT_1_P": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_1_P",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "J05"
+        }
+      ]
+    },
+    "EXT_1_PRIM": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_1_PRIM",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C10"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R17"
+        },
+        {
+          "pin_name": "RB4",
+          "pin_number": "22",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EXT_1_SEC": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_1_SEC",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C09"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R16"
+        },
+        {
+          "pin_name": "RB5",
+          "pin_number": "23",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EXT_2_N": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_2_N",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "J06"
+        }
+      ]
+    },
+    "EXT_2_P": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_2_P",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "J06"
+        }
+      ]
+    },
+    "EXT_2_PRIM": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_2_PRIM",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C12"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R19"
+        },
+        {
+          "pin_name": "RC6",
+          "pin_number": "14",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "EXT_2_SEC": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "EXT_2_SEC",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C11"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R18"
+        },
+        {
+          "pin_name": "RC7",
+          "pin_number": "15",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "FAULT": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "FAULT",
+      "pins": [
+        {
+          "pin_name": "C1",
+          "pin_number": "6",
+          "ref_des": "Q01"
+        },
+        {
+          "pin_name": "C1",
+          "pin_number": "6",
+          "ref_des": "Q02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R06"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R07"
+        },
+        {
+          "pin_name": "RA3",
+          "pin_number": "2",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "GND": {
+      "is_ground": true,
+      "is_power": false,
+      "name": "GND",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C10"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02C02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02C04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R06"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4",
+          "ref_des": "02U01"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5",
+          "ref_des": "02U01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03C01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03C08"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R06"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3",
+          "ref_des": "03U01"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4",
+          "ref_des": "03U01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04C01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04C08"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R06"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4",
+          "ref_des": "04U01"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "5",
+          "ref_des": "04U01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05C01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05C08"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R06"
+        },
+        {
+          "pin_name": "IN+",
+          "pin_number": "3",
+          "ref_des": "05U01"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "4",
+          "ref_des": "05U01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C06"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C09"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C10"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C11"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C12"
+        },
+        {
+          "pin_name": "L2_1",
+          "pin_number": "2",
+          "ref_des": "FL01"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T1",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "PIN",
+          "pin_number": "T2",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "1",
+          "pin_number": "1",
+          "ref_des": "NET01"
+        },
+        {
+          "pin_name": "E1",
+          "pin_number": "1",
+          "ref_des": "Q01"
+        },
+        {
+          "pin_name": "E1",
+          "pin_number": "1",
+          "ref_des": "Q02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R04"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "8",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "GND",
+          "pin_number": "8",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "VSS1",
+          "pin_number": "5",
+          "ref_des": "U04"
+        },
+        {
+          "pin_name": "VSS2",
+          "pin_number": "16",
+          "ref_des": "U04"
+        },
+        {
+          "pin_name": "TAB",
+          "pin_number": "29",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "GND_EMC3": {
+      "is_ground": true,
+      "is_power": false,
+      "name": "GND_EMC3",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C06"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C08"
+        },
+        {
+          "pin_name": "C2",
+          "pin_number": "2",
+          "ref_des": "01D02"
+        },
+        {
+          "pin_name": "C1",
+          "pin_number": "1",
+          "ref_des": "01D04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C02"
+        },
+        {
+          "pin_name": "3",
+          "pin_number": "3",
+          "ref_des": "D01"
+        }
+      ]
+    },
+    "GND_IPSU": {
+      "is_ground": true,
+      "is_power": false,
+      "name": "GND_IPSU",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01D01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01D03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01D05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01D06"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C02"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2",
+          "ref_des": "D01"
+        },
+        {
+          "pin_name": "L2_2",
+          "pin_number": "3",
+          "ref_des": "FL01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R02"
+        }
+      ]
+    },
+    "GND_OSC": {
+      "is_ground": true,
+      "is_power": false,
+      "name": "GND_OSC",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C08"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2",
+          "ref_des": "NET01"
+        },
+        {
+          "pin_name": "2",
+          "pin_number": "2",
+          "ref_des": "Y01"
+        },
+        {
+          "pin_name": "4",
+          "pin_number": "4",
+          "ref_des": "Y01"
+        }
+      ]
+    },
+    "IPSU_5V": {
+      "is_ground": false,
+      "is_power": true,
+      "name": "IPSU_5V",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "2",
+          "ref_des": "01D01"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2",
+          "ref_des": "01D03"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2",
+          "ref_des": "01D05"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "2",
+          "ref_des": "01D06"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R06"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02C01"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8",
+          "ref_des": "02U01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03C08"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8",
+          "ref_des": "03U01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "04C08"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8",
+          "ref_des": "04U01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "05C08"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "8",
+          "ref_des": "05U01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C06"
+        },
+        {
+          "pin_name": "1",
+          "pin_number": "1",
+          "ref_des": "D01"
+        },
+        {
+          "pin_name": "C",
+          "pin_number": "1",
+          "ref_des": "D02"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "2",
+          "ref_des": "D03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "2",
+          "ref_des": "D04"
+        },
+        {
+          "pin_name": "L1_2",
+          "pin_number": "4",
+          "ref_des": "FL01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R06"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R07"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "VCC",
+          "pin_number": "16",
+          "ref_des": "U03"
+        },
+        {
+          "pin_name": "VDD",
+          "pin_number": "17",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "IPSU_5V_MEAS": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "IPSU_5V_MEAS",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "C03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R04"
+        },
+        {
+          "pin_name": "RC5",
+          "pin_number": "13",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "LCK": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "LCK",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R13"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "LCK",
+          "pin_number": "12",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "OUT1_IN2": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "OUT1_IN2",
+      "pins": [
+        {
+          "pin_name": "SQH",
+          "pin_number": "9",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "14",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "OUT2_IN3": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "OUT2_IN3",
+      "pins": [
+        {
+          "pin_name": "SQH",
+          "pin_number": "9",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "OE",
+          "pin_number": "13",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "P5_SENS_EXT": {
+      "is_ground": false,
+      "is_power": true,
+      "name": "P5_SENS_EXT",
+      "pins": [
+        {
+          "pin_name": "L1_1",
+          "pin_number": "1",
+          "ref_des": "FL01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R01"
+        }
+      ]
+    },
+    "RAW_1": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "RAW_1",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02C04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "02R09"
+        },
+        {
+          "pin_name": "B1",
+          "pin_number": "2",
+          "ref_des": "Q01"
+        },
+        {
+          "pin_name": "RC3",
+          "pin_number": "11",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "RAW_2": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "RAW_2",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "03R12"
+        },
+        {
+          "pin_name": "B1",
+          "pin_number": "2",
+          "ref_des": "Q02"
+        },
+        {
+          "pin_name": "RC4",
+          "pin_number": "12",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "RESET": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "RESET",
+      "pins": [
+        {
+          "pin_name": "RESET",
+          "pin_number": "10",
+          "ref_des": "U01"
+        },
+        {
+          "pin_name": "RESET",
+          "pin_number": "10",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "RESET",
+          "pin_number": "10",
+          "ref_des": "U03"
+        },
+        {
+          "pin_name": "RB2",
+          "pin_number": "20",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "SCK": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SCK",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R10"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11",
+          "ref_des": "U02"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN001100": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN001100",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "05R10"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R18"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R19"
+        }
+      ]
+    },
+    "SIGN001101": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN001101",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04C05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "04R12"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R15"
+        }
+      ]
+    },
+    "SIGN001102": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN001102",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R15"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R16"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R17"
+        }
+      ]
+    },
+    "SIGN00151": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00151",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C08"
+        },
+        {
+          "pin_name": "RA7",
+          "pin_number": "6",
+          "ref_des": "U04"
+        },
+        {
+          "pin_name": "1",
+          "pin_number": "1",
+          "ref_des": "Y01"
+        }
+      ]
+    },
+    "SIGN00152": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00152",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R08"
+        },
+        {
+          "pin_name": "RA6",
+          "pin_number": "7",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "SIGN00153": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00153",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "C07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R08"
+        },
+        {
+          "pin_name": "3",
+          "pin_number": "3",
+          "ref_des": "Y01"
+        }
+      ]
+    },
+    "SIGN00158": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00158",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "2",
+          "ref_des": "D02"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R09"
+        }
+      ]
+    },
+    "SIGN00159": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00159",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "1",
+          "ref_des": "D03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R11"
+        }
+      ]
+    },
+    "SIGN00160": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00160",
+      "pins": [
+        {
+          "pin_name": "C",
+          "pin_number": "1",
+          "ref_des": "D04"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R14"
+        }
+      ]
+    },
+    "SIGN00163": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00163",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R12"
+        },
+        {
+          "pin_name": "RA5",
+          "pin_number": "4",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "SIGN00164": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00164",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R13"
+        },
+        {
+          "pin_name": "RB0",
+          "pin_number": "18",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "SIGN00165": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00165",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "R10"
+        },
+        {
+          "pin_name": "RB1",
+          "pin_number": "19",
+          "ref_des": "U04"
+        }
+      ]
+    },
+    "SIGN00171": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00171",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "R05"
+        },
+        {
+          "pin_name": "SCK",
+          "pin_number": "11",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00174": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00174",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00175": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00175",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "2",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QB",
+          "pin_number": "1",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00176": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00176",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "3",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00177": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00177",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "4",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00178": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00178",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "5",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00179": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00179",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "6",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00180": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00180",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "7",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00181": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00181",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "8",
+          "ref_des": "J01"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7",
+          "ref_des": "U01"
+        }
+      ]
+    },
+    "SIGN00182": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00182",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00183": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00183",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "2",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QB",
+          "pin_number": "1",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00184": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00184",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "3",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00185": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00185",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "4",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00186": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00186",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "5",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00187": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00187",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "6",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00188": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00188",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "7",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00189": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00189",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "8",
+          "ref_des": "J02"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7",
+          "ref_des": "U02"
+        }
+      ]
+    },
+    "SIGN00190": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00190",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "1",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QA",
+          "pin_number": "15",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00191": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00191",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "3",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QB",
+          "pin_number": "1",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00192": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00192",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "2",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QC",
+          "pin_number": "2",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00193": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00193",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "4",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QD",
+          "pin_number": "3",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00194": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00194",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "5",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QE",
+          "pin_number": "4",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00195": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00195",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "6",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QF",
+          "pin_number": "5",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00196": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00196",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "7",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QG",
+          "pin_number": "6",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIGN00197": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIGN00197",
+      "pins": [
+        {
+          "pin_name": "PIN",
+          "pin_number": "8",
+          "ref_des": "J03"
+        },
+        {
+          "pin_name": "QH",
+          "pin_number": "7",
+          "ref_des": "U03"
+        }
+      ]
+    },
+    "SIG_N": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_N",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C06"
+        },
+        {
+          "pin_name": "C1",
+          "pin_number": "1",
+          "ref_des": "01D02"
+        },
+        {
+          "pin_name": "L1_1",
+          "pin_number": "1",
+          "ref_des": "01FL01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R08"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "J04"
+        }
+      ]
+    },
+    "SIG_P": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_P",
+      "pins": [
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01C08"
+        },
+        {
+          "pin_name": "C2",
+          "pin_number": "2",
+          "ref_des": "01D04"
+        },
+        {
+          "pin_name": "L2_1",
+          "pin_number": "2",
+          "ref_des": "01FL01"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01R07"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "J04"
+        }
+      ]
+    },
+    "SIG_PRIM_N": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_PRIM_N",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C03"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3",
+          "ref_des": "01D01"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R04"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R01"
+        }
+      ]
+    },
+    "SIG_PRIM_P": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_PRIM_P",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C10"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3",
+          "ref_des": "01D03"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R09"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "02R02"
+        }
+      ]
+    },
+    "SIG_SEC_N": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_SEC_N",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C04"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3",
+          "ref_des": "01D06"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R05"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R01"
+        }
+      ]
+    },
+    "SIG_SEC_P": {
+      "is_ground": false,
+      "is_power": false,
+      "name": "SIG_SEC_P",
+      "pins": [
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "01C01"
+        },
+        {
+          "pin_name": "CA",
+          "pin_number": "3",
+          "ref_des": "01D05"
+        },
+        {
+          "pin_name": "B",
+          "pin_number": "2",
+          "ref_des": "01R03"
+        },
+        {
+          "pin_name": "A",
+          "pin_number": "1",
+          "ref_des": "03R02"
+        }
+      ]
+    }
+  },
+  "schema_version": 1
+}

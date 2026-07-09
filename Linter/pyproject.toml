@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schematic-linter"
+version = "0.1.0"
+description = "Topology-aware netlist linter for flat Zuken Design Gateway netlists"
+requires-python = ">=3.10"
+dependencies = [
+    "networkx>=3.2",
+    "PyMuPDF>=1.24",
+    "pandas>=2.2",
+    "Jinja2>=3.1",
+    "click>=8.1",
+    "rich>=13.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+schematic-linter = "schematic_linter.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["schematic_linter*"]
+
+[tool.setuptools.package-data]
+schematic_linter = ["report/templates/*.j2"]

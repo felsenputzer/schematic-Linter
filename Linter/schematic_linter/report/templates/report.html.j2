@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Schematic Linter Report{% if metadata.project_name %} &mdash; {{ metadata.project_name }}{% endif %}</title>
+<style>
+  :root {
+    --error: #c0392b;
+    --warning: #b8860b;
+    --info: #2b6cb0;
+    --bg: #f7f8fa;
+    --card-bg: #ffffff;
+    --border: #e2e5ea;
+    --text: #202634;
+    --muted: #667085;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0 0 4rem 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+  }
+  header.report-header {
+    background: #14213d;
+    color: #fff;
+    padding: 2rem 2.5rem;
+  }
+  header.report-header h1 {
+    margin: 0 0 0.25rem 0;
+    font-size: 1.6rem;
+  }
+  header.report-header .subtitle {
+    color: #c8d1e0;
+    font-size: 0.95rem;
+  }
+  .container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+  .summary-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-top: -2.5rem;
+    padding: 1.5rem 2rem;
+    box-shadow: 0 4px 18px rgba(20, 33, 61, 0.08);
+  }
+  .summary-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  .count-badge {
+    flex: 1 1 120px;
+    border-radius: 8px;
+    padding: 0.9rem 1.1rem;
+    color: #fff;
+    min-width: 120px;
+    border: none;
+    text-align: left;
+    font-family: inherit;
+    cursor: pointer;
+    transition: opacity 0.15s ease, transform 0.1s ease;
+    position: relative;
+  }
+  .count-badge:hover { transform: translateY(-1px); }
+  .count-badge:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+  .count-badge .n { font-size: 1.8rem; font-weight: 700; display: block; }
+  .count-badge .filter-hint {
+    display: block;
+    font-size: 0.7rem;
+    opacity: 0.85;
+    margin-top: 0.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+  .count-badge.error { background: var(--error); }
+  .count-badge.warning { background: var(--warning); }
+  .count-badge.info { background: var(--info); }
+  .count-badge.total { background: #384358; }
+  .count-badge.is-off {
+    opacity: 0.4;
+  }
+  .count-badge:not(.total) .filter-hint::after { content: " \2022 click to hide"; }
+  .count-badge:not(.total).is-off .filter-hint::after { content: " \2022 hidden"; }
+  .count-badge.total .filter-hint::after { content: " \2022 click to reset"; }
+  .meta-table {
+    margin-top: 1.25rem;
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+  .meta-table div { margin-bottom: 0.2rem; }
+  .meta-table b { color: var(--text); }
+  .inputs-list span {
+    display: inline-block;
+    margin-right: 0.6rem;
+    padding: 0.1rem 0.55rem;
+    border-radius: 999px;
+    background: #eef1f6;
+    font-size: 0.8rem;
+  }
+  .inputs-list span.used { background: #e4f5e9; color: #1b7a3d; }
+  .inputs-list span.missing { background: #f5eaea; color: #99483f; }
+
+  h2.section-title {
+    margin: 2.5rem 0 1rem 0;
+    font-size: 1.15rem;
+    color: var(--text);
+  }
+
+  .finding-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-left: 6px solid var(--muted);
+    border-radius: 8px;
+    padding: 1.1rem 1.4rem;
+    margin-bottom: 1rem;
+  }
+  .finding-card.error { border-left-color: var(--error); }
+  .finding-card.warning { border-left-color: var(--warning); }
+  .finding-card.info { border-left-color: var(--info); }
+  .finding-card.is-hidden { display: none; }
+
+  .finding-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .severity-pill {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    padding: 0.15rem 0.55rem;
+    border-radius: 999px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .severity-pill.error { background: var(--error); }
+  .severity-pill.warning { background: var(--warning); }
+  .severity-pill.info { background: var(--info); }
+  .finding-title { font-weight: 600; font-size: 1.02rem; }
+  .rule-id { color: var(--muted); font-size: 0.78rem; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+  .finding-desc { margin: 0.6rem 0; color: #333c4a; }
+  .finding-note {
+    margin: 0.5rem 0;
+    padding: 0.45rem 0.7rem;
+    background: #fff8e6;
+    border: 1px solid #f1e0a6;
+    border-radius: 6px;
+    font-size: 0.86rem;
+    color: #7a5c00;
+  }
+  .tag-row { margin: 0.5rem 0; font-size: 0.85rem; }
+  .tag-row b { color: var(--muted); font-weight: 600; margin-right: 0.35rem; }
+  .tag {
+    display: inline-block;
+    background: #eef1f6;
+    border-radius: 5px;
+    padding: 0.08rem 0.5rem;
+    margin: 0.1rem 0.2rem 0.1rem 0;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 0.82rem;
+  }
+  .snippets { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 0.8rem; }
+  .snippet { border: 1px solid var(--border); border-radius: 6px; padding: 0.4rem; background: #fcfcfd; }
+  .snippet img { display: block; max-width: 420px; max-height: 340px; border-radius: 3px; }
+  .snippet .caption { font-size: 0.75rem; color: var(--muted); margin-top: 0.3rem; text-align: center; }
+
+  .empty-state {
+    text-align: center;
+    color: var(--muted);
+    padding: 2.5rem 0;
+  }
+  .filter-status {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin: -0.4rem 0 1rem 0;
+  }
+  .filter-status button {
+    border: none;
+    background: none;
+    color: var(--info);
+    cursor: pointer;
+    font-size: inherit;
+    text-decoration: underline;
+    padding: 0;
+    margin-left: 0.4rem;
+  }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.78rem;
+    margin-top: 3rem;
+  }
+</style>
+</head>
+<body>
+
+<header class="report-header">
+  <div class="container">
+    <h1>Topology-Aware Netlist Linter Report</h1>
+    <div class="subtitle">{{ metadata.project_name or "Unnamed project" }} &middot; generated {{ metadata.generated_at }}</div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="summary-card">
+    <div class="summary-grid" id="severity-filters">
+      <button type="button" class="count-badge total" data-severity="all">
+        <span class="n">{{ total }}</span>Findings<span class="filter-hint"></span>
+      </button>
+      <button type="button" class="count-badge error" data-severity="error">
+        <span class="n">{{ counts.error }}</span>Errors<span class="filter-hint"></span>
+      </button>
+      <button type="button" class="count-badge warning" data-severity="warning">
+        <span class="n">{{ counts.warning }}</span>Warnings<span class="filter-hint"></span>
+      </button>
+      <button type="button" class="count-badge info" data-severity="info">
+        <span class="n">{{ counts.info }}</span>Infos<span class="filter-hint"></span>
+      </button>
+    </div>
+    <div class="meta-table">
+      <div><b>Netlist:</b> {{ metadata.netlist_file or "n/a" }}</div>
+      <div><b>Components:</b> {{ metadata.component_count }} &middot; <b>Nets:</b> {{ metadata.net_count }}</div>
+      <div class="inputs-list" style="margin-top:0.5rem;">
+        <span class="used">netlist</span>
+        <span class="{{ 'used' if metadata.has_bom else 'missing' }}">eBOM {{ 'used' if metadata.has_bom else 'not provided' }}</span>
+        <span class="{{ 'used' if metadata.has_pdf else 'missing' }}">schematic PDF {{ 'used' if metadata.has_pdf else 'not provided' }}</span>
+      </div>
+    </div>
+  </div>
+
+  <h2 class="section-title">Findings ({{ total }})</h2>
+
+  {% if not report_findings %}
+    <div class="empty-state">No issues found by any active rule. &#127881;</div>
+  {% endif %}
+
+  <div class="filter-status" id="filter-status" hidden></div>
+
+  {% for rf in report_findings %}
+    {% set f = rf.finding %}
+    <div class="finding-card {{ f.severity.value }}" data-severity="{{ f.severity.value }}">
+      <div class="finding-head">
+        <span class="severity-pill {{ f.severity.value }}">{{ f.severity.label }}</span>
+        <span class="finding-title">{{ f.title }}</span>
+        <span class="rule-id">{{ f.rule_id }}</span>
+      </div>
+      <p class="finding-desc">{{ f.description }}</p>
+      {% if f.note %}
+        <div class="finding-note">Note: {{ f.note }}</div>
+      {% endif %}
+      {% if f.ref_des %}
+        <div class="tag-row"><b>Components:</b>{% for r in f.ref_des %}<span class="tag">{{ r }}</span>{% endfor %}</div>
+      {% endif %}
+      {% if f.nets %}
+        <div class="tag-row"><b>Nets:</b>{% for n in f.nets %}<span class="tag">{{ n }}</span>{% endfor %}</div>
+      {% endif %}
+      {% if f.pattern_kind %}
+        <div class="tag-row"><b>Pattern:</b> {{ f.pattern_kind }}</div>
+      {% endif %}
+      {% if rf.images %}
+        <div class="snippets">
+          {% for img in rf.images %}
+            <div class="snippet">
+              <img src="{{ img.data_uri }}" alt="Schematic snippet for {{ img.ref_des }}">
+              <div class="caption">{{ img.ref_des }}</div>
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+
+  {% if report_findings %}
+    <div class="empty-state" id="filter-empty-state" hidden>
+      All findings are currently hidden by the severity filter above.
+      <button type="button" id="filter-empty-reset">Show all</button>
+    </div>
+  {% endif %}
+
+  <footer>Generated by schematic-linter {{ metadata.tool_version }} &middot; analysis is topology-based only, not a substitute for engineering review.</footer>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var hidden = Object.create(null); // severity -> true when hidden
+  var filterButtons = document.querySelectorAll("#severity-filters .count-badge");
+  var findingCards = document.querySelectorAll(".finding-card");
+  var statusEl = document.getElementById("filter-status");
+  var emptyStateEl = document.getElementById("filter-empty-state");
+  var emptyStateResetBtn = document.getElementById("filter-empty-reset");
+
+  function severityLabel(sev) {
+    return sev.charAt(0).toUpperCase() + sev.slice(1) + "s";
+  }
+
+  function render() {
+    var anyHidden = false;
+    var visibleCount = 0;
+
+    findingCards.forEach(function (card) {
+      var sev = card.getAttribute("data-severity");
+      var isHidden = !!hidden[sev];
+      card.classList.toggle("is-hidden", isHidden);
+      if (isHidden) {
+        anyHidden = true;
+      } else {
+        visibleCount += 1;
+      }
+    });
+
+    filterButtons.forEach(function (btn) {
+      var sev = btn.getAttribute("data-severity");
+      if (sev === "all") {
+        btn.classList.toggle("is-off", false);
+      } else {
+        btn.classList.toggle("is-off", !!hidden[sev]);
+      }
+    });
+
+    var hiddenSeverities = Object.keys(hidden).filter(function (sev) {
+      return hidden[sev];
+    });
+
+    if (hiddenSeverities.length > 0) {
+      statusEl.hidden = false;
+      var labels = hiddenSeverities.map(severityLabel).join(", ");
+      statusEl.textContent = "Hiding: " + labels + " (showing " + visibleCount + " of " + findingCards.length + ")";
+      var resetBtn = document.createElement("button");
+      resetBtn.type = "button";
+      resetBtn.textContent = "Show all";
+      resetBtn.addEventListener("click", resetFilters);
+      statusEl.appendChild(resetBtn);
+    } else {
+      statusEl.hidden = true;
+      statusEl.textContent = "";
+    }
+
+    if (emptyStateEl) {
+      emptyStateEl.hidden = !(anyHidden && visibleCount === 0);
+    }
+  }
+
+  function resetFilters() {
+    hidden = Object.create(null);
+    render();
+  }
+
+  filterButtons.forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var sev = btn.getAttribute("data-severity");
+      if (sev === "all") {
+        resetFilters();
+        return;
+      }
+      hidden[sev] = !hidden[sev];
+      render();
+    });
+  });
+
+  if (emptyStateResetBtn) {
+    emptyStateResetBtn.addEventListener("click", resetFilters);
+  }
+
+  render();
+})();
+</script>
+
+</body>
+</html>
