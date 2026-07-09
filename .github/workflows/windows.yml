@@ -60,6 +60,11 @@ jobs:
           # TestData/Projekt1 is a known sample with one hand-verified Error
           # finding, so the CLI is expected to exit 1 -- anything else means
           # the bundled exe didn't actually run the real analysis correctly.
+          # (Explicit `exit 0`/`exit 1` below, rather than letting the script
+          # fall off the end, because pwsh steps in Actions otherwise adopt
+          # the *last external command's* $LASTEXITCODE as the step's own --
+          # which here would be the intentional non-zero exit code we're
+          # asserting on, wrongly failing an otherwise-passing smoke test.)
           if ($exitCode -ne 1) {
             Write-Error "Expected exit code 1 from analyzing TestData/Projekt1, got $exitCode"
             exit 1
@@ -74,6 +79,7 @@ jobs:
           }
 
           Write-Host "Smoke test passed: exe ran standalone, exit code $exitCode, report.html and graph.json produced."
+          exit 0
 
       - name: Upload built exe
         uses: actions/upload-artifact@v4
