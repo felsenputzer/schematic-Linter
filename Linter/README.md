@@ -22,7 +22,16 @@ pip install -e .
 ```
 
 This installs the `schematic-linter` command (backed by `networkx`,
-`PyMuPDF`, `pandas`, `Jinja2`, `click`, and `rich`).
+`PyMuPDF`, `Jinja2`, `click`, and `rich`).
+
+### Standalone Windows build
+
+For running on a Windows machine with no Python installed at all, see
+[`packaging/windows/`](packaging/windows/): a PyInstaller spec and build
+script that produce a single self-contained `schematic-linter.exe`. It's
+built and smoke-tested on a real Windows runner by
+[`.github/workflows/windows.yml`](../.github/workflows/windows.yml) on every
+push.
 
 ## Usage
 

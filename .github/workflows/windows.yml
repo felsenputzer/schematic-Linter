@@ -1,0 +1,82 @@
+name: Windows
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test-windows:
+    name: pytest (windows-latest)
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+        working-directory: Linter
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install schematic-linter (with dev extras)
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e ".[dev]"
+
+      - name: Run test suite
+        run: pytest -v
+
+  build-and-smoke-test-windows:
+    name: Build + smoke-test standalone .exe (windows-latest)
+    needs: test-windows
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build standalone exe (PyInstaller)
+        working-directory: Linter/packaging/windows
+        run: .\build.ps1
+
+      - name: Smoke test the built exe against TestData/Projekt1
+        run: |
+          $exe = "Linter\packaging\windows\dist\schematic-linter.exe"
+          if (-not (Test-Path $exe)) {
+            Write-Error "Build did not produce $exe"
+            exit 1
+          }
+
+          $outputDir = "smoke-test-output"
+          & $exe analyze "TestData\Projekt1" --output $outputDir
+          $exitCode = $LASTEXITCODE
+
+          # TestData/Projekt1 is a known sample with one hand-verified Error
+          # finding, so the CLI is expected to exit 1 -- anything else means
+          # the bundled exe didn't actually run the real analysis correctly.
+          if ($exitCode -ne 1) {
+            Write-Error "Expected exit code 1 from analyzing TestData/Projekt1, got $exitCode"
+            exit 1
+          }
+
+          foreach ($file in @("report.html", "graph.json")) {
+            $path = Join-Path $outputDir $file
+            if (-not (Test-Path $path)) {
+              Write-Error "Expected output file was not produced: $path"
+              exit 1
+            }
+          }
+
+          Write-Host "Smoke test passed: exe ran standalone, exit code $exitCode, report.html and graph.json produced."
+
+      - name: Upload built exe
+        uses: actions/upload-artifact@v4
+        with:
+          name: schematic-linter-windows
+          path: Linter/packaging/windows/dist/schematic-linter.exe
