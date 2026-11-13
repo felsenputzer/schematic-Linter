@@ -9,6 +9,8 @@ from ..config import Severity
 from .base import Finding, RuleContext
 
 RULE_ID = "unloaded_divider"
+RULE_NAME = "Unloaded voltage divider"
+RULE_DESCRIPTION = "A voltage divider whose tap connects to nothing but its two resistors."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:

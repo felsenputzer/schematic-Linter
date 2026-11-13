@@ -11,6 +11,8 @@ from ..graph.model import ComponentKind
 from .base import Finding, RuleContext
 
 RULE_ID = "floating_single_pin_net"
+RULE_NAME = "Single-pin net"
+RULE_DESCRIPTION = "A net with only one pin attached, so it connects nothing."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:

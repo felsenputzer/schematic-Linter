@@ -17,7 +17,7 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import Dict, List, Optional
 
-from ..config import ZERO_OHM_THRESHOLD
+from .. import config
 from ..graph.model import Component, ComponentKind
 from ..patterns.base import PatternMatch
 from .base import RuleContext
@@ -91,5 +91,5 @@ def is_negligible(component: Optional[Component]) -> bool:
         component is not None
         and component.has_known_value
         and component.value.unit == "ohm"
-        and component.value.magnitude <= ZERO_OHM_THRESHOLD
+        and component.value.magnitude <= config.ZERO_OHM_THRESHOLD
     )

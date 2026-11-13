@@ -1,13 +1,19 @@
 # Standalone Windows build
 
-Packages `schematic-linter` into a single `schematic-linter.exe` with
-[PyInstaller](https://pyinstaller.org/), so it can run on a Windows machine
-with no Python installation required.
+Packages the linter with [PyInstaller](https://pyinstaller.org/) into two
+single-file executables that run on a Windows machine with no Python
+installed:
+
+| File | What it is |
+|---|---|
+| `SchematicLinter.exe` | The graphical tool. **This is the one to give to users**: double-click, choose the project folder, click *Run checks*. |
+| `schematic-linter.exe` | The command-line tool, for scripting/CI (`schematic-linter.exe analyze C:\path\to\ProjectFolder`). |
 
 PyInstaller doesn't cross-compile, so this **must be built on a Windows
 machine** (or a Windows CI runner -- see
 [`.github/workflows/windows.yml`](../../../.github/workflows/windows.yml),
-which builds and smoke-tests this exact spec on every push).
+which builds and smoke-tests both executables on every push and uploads
+them as the `schematic-linter-windows` artifact).
 
 ## Build
 
@@ -20,21 +26,29 @@ cd packaging\windows
 
 This installs the project (editable) plus `pyinstaller` into whatever Python
 environment is currently active, then runs PyInstaller against
-`schematic-linter.spec`. The result is written to
-`packaging\windows\dist\schematic-linter.exe`.
+`schematic-linter.spec`. The results are written to
+`packaging\windows\dist\`.
 
-## Use
+## Deploying to users
 
-```powershell
-.\dist\schematic-linter.exe analyze C:\path\to\ProjectFolder
-```
+Copy `SchematicLinter.exe` anywhere (a network share works, so does the
+desktop) -- it's fully self-contained (Python interpreter, all
+dependencies, the report template). Each user's settings are stored in
+`%APPDATA%\SchematicLinter\settings.json`. To give everyone the same
+checks/thresholds, save a profile from the GUI (*File → Save check
+profile...*) and share that `.json` file.
 
-Same CLI as the regular `schematic-linter` command -- see the main
-[README](../../README.md) for usage, input requirements, and what gets
-checked. The `.exe` is fully self-contained (it bundles the Python
-interpreter, all dependencies, and the HTML report template), so it can be
-copied to and run on another Windows machine without installing anything
-else.
+Things to expect:
+
+- **Start-up takes a few seconds**: a single-file exe unpacks itself to a
+  temp folder on every launch.
+- **SmartScreen / antivirus**: an unsigned exe downloaded from the internet
+  triggers "Windows protected your PC" (*More info → Run anyway*), and some
+  antivirus products are wary of PyInstaller executables in general. For a
+  wider rollout, sign the exe with your organization's code-signing
+  certificate (`signtool sign ...`), or ask IT to allow-list it.
+- You can also drop a project folder onto `SchematicLinter.exe`: it opens
+  with that folder pre-selected.
 
 ## Notes
 
@@ -48,5 +62,12 @@ else.
   (`schematic_linter/report/templates/report.html.j2`) is bundled as data
   alongside the code, since PyInstaller doesn't read `setuptools`
   package-data declarations.
+- The spec excludes `numpy`, `onnxruntime` and PyMuPDF's ONNX layout models.
+  Recent PyMuPDF versions pull these in for an optional AI layout feature the
+  linter doesn't use. This cuts each executable from roughly 110 MB to
+  roughly 50 MB (measured on a Linux test build).
+- `SchematicLinter.exe --smoke-test <project> <output>` opens the real
+  window, runs one analysis without user interaction and exits with the
+  same code as the CLI (CI uses this).
 - `build\` and `dist\` (PyInstaller's working and output directories) are
   git-ignored; rebuild locally rather than expecting a checked-in `.exe`.

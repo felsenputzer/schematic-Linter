@@ -106,6 +106,7 @@
   }
   .inputs-list span.used { background: #e4f5e9; color: #1b7a3d; }
   .inputs-list span.missing { background: #f5eaea; color: #99483f; }
+  .config-note { margin-top: 0.5rem; padding: 0.4rem 0.6rem; background: #fff6e0; border-left: 3px solid #d9a400; }
 
   h2.section-title {
     margin: 2.5rem 0 1rem 0;
@@ -234,6 +235,12 @@
         <span class="{{ 'used' if metadata.has_bom else 'missing' }}">eBOM {{ 'used' if metadata.has_bom else 'not provided' }}</span>
         <span class="{{ 'used' if metadata.has_pdf else 'missing' }}">schematic PDF {{ 'used' if metadata.has_pdf else 'not provided' }}</span>
       </div>
+      {% if metadata.disabled_checks %}
+      <div class="config-note"><b>Checks disabled for this run:</b> {{ metadata.disabled_checks | join(", ") }}</div>
+      {% endif %}
+      {% if metadata.changed_thresholds %}
+      <div class="config-note"><b>Non-default thresholds:</b> {{ metadata.changed_thresholds | join("; ") }}</div>
+      {% endif %}
     </div>
   </div>
 

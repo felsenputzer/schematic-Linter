@@ -17,6 +17,8 @@ from ._common_source import branch_groups, feed_resistors, is_negligible
 from .base import Finding, RuleContext
 
 RULE_ID = "shared_source_resistor"
+RULE_NAME = "Shared source resistor before RC branches"
+RULE_DESCRIPTION = "A resistor feeding a node that splits into several independently filtered RC branches, so the branches influence each other."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:

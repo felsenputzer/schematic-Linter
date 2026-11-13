@@ -19,6 +19,8 @@ from ._pin_naming import GROUND_PIN_NAME_RE, POWER_PIN_NAME_RE
 from .base import Finding, RuleContext
 
 RULE_ID = "power_pin_miswire"
+RULE_NAME = "Power/ground pin on the wrong rail"
+RULE_DESCRIPTION = "A VCC/VDD-named pin tied to a ground net, or a GND/VSS-named pin tied to a power net."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:

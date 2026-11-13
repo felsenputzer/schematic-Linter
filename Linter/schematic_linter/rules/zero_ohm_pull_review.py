@@ -5,11 +5,14 @@ from __future__ import annotations
 
 from typing import List, Optional
 
-from ..config import NOTE_VALUE_UNKNOWN, ZERO_OHM_THRESHOLD, Severity
+from .. import config
+from ..config import NOTE_VALUE_UNKNOWN, Severity
 from ..graph.model import Component
 from .base import Finding, RuleContext
 
 RULE_ID = "zero_ohm_pull_review"
+RULE_NAME = "0 \u03a9 pull resistor"
+RULE_DESCRIPTION = "A pull-up/pull-down whose eBOM value is 0 \u03a9, i.e. probably a jumper, not a pull."
 
 
 def _finding_for(ctx: RuleContext, kind: str, label: str) -> List[Finding]:
@@ -45,7 +48,7 @@ def _finding_for(ctx: RuleContext, kind: str, label: str) -> List[Finding]:
             )
             continue
 
-        if component.value.unit == "ohm" and component.value.magnitude <= ZERO_OHM_THRESHOLD:
+        if component.value.unit == "ohm" and component.value.magnitude <= config.ZERO_OHM_THRESHOLD:
             findings.append(
                 Finding(
                     rule_id=RULE_ID,

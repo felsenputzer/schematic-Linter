@@ -6,15 +6,16 @@ from __future__ import annotations
 from collections import defaultdict
 from typing import List
 
+from .. import config
 from ..config import (
-    BULK_CAP_RATIO,
-    MAX_DECOUPLING_CAPS_WITHOUT_BULK,
     NOTE_VALUE_UNKNOWN,
     Severity,
 )
 from .base import Finding, RuleContext
 
 RULE_ID = "excess_decoupling_no_bulk"
+RULE_NAME = "Many decoupling caps, no bulk cap"
+RULE_DESCRIPTION = "More decoupling caps than usual on one rail with no larger bulk/reservoir cap."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:
@@ -25,7 +26,7 @@ def evaluate(ctx: RuleContext) -> List[Finding]:
         by_power_net[m.details["power_net"]].append(m)
 
     for power_net, group in sorted(by_power_net.items()):
-        if len(group) <= MAX_DECOUPLING_CAPS_WITHOUT_BULK:
+        if len(group) <= config.MAX_DECOUPLING_CAPS_WITHOUT_BULK:
             continue
 
         cap_refs = sorted({m.details["capacitor"] for m in group})
@@ -41,7 +42,7 @@ def evaluate(ctx: RuleContext) -> List[Finding]:
         has_bulk = False
         if len(values) >= 2:
             values.sort()
-            has_bulk = values[-1] >= BULK_CAP_RATIO * values[-2]
+            has_bulk = values[-1] >= config.BULK_CAP_RATIO * values[-2]
         if has_bulk:
             continue
 

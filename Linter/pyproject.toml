@@ -21,6 +21,9 @@ dev = ["pytest>=8.0"]
 [project.scripts]
 schematic-linter = "schematic_linter.cli:main"
 
+[project.gui-scripts]
+schematic-linter-gui = "schematic_linter.gui:main"
+
 [tool.setuptools.packages.find]
 include = ["schematic_linter*"]
 

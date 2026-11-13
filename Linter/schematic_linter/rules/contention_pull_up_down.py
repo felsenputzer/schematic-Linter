@@ -23,6 +23,8 @@ from ..config import Severity
 from .base import Finding, RuleContext
 
 RULE_ID = "contention_pull_up_down"
+RULE_NAME = "Pull-up / pull-down contention"
+RULE_DESCRIPTION = "A net with both a pull-up and a pull-down that isn't explained by a plain voltage divider."
 
 
 def _is_clean_divider_pair(ctx: RuleContext, net_name: str, up_refs: set, down_refs: set) -> bool:

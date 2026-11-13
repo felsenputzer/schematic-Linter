@@ -1,6 +1,6 @@
 # Topology-Aware Netlist Linter
 
-A command-line tool for electronics engineers that finds design mistakes in
+A desktop tool for electronics engineers that finds design mistakes in
 a schematic by analyzing its **structural connectivity** — not by
 simulating it. It parses a flat Zuken Design Gateway netlist (optionally
 enriched with an eBOM and a searchable schematic PDF), builds a
@@ -9,42 +9,92 @@ dividers, RC filters, pull-ups/downs, decoupling caps, crystal load caps,
 ...), checks them against a rule set, and writes a single self-contained
 HTML report with cropped schematic snippets for each finding.
 
+It has a graphical interface for day-to-day use and a command line for
+scripting/CI.
+
 No simulation, no LVS, no hierarchical/unflattened netlist support —
 purely a fast, structural sanity check you can run before/alongside
 review.
 
-## Install
+## Getting it
+
+| You are... | Use |
+|---|---|
+| a user on Windows without Python | `SchematicLinter.exe` — a single file, nothing to install. Get it from the `schematic-linter-windows` artifact of the latest *Windows* workflow run (GitHub → Actions), or build it yourself, see [`packaging/windows/`](packaging/windows/). |
+| a developer working in Spyder or another IDE | Open [`run_linter.py`](run_linter.py) and press **F5** (see below). |
+| a developer on the command line | `pip install -e .` (see below). |
+
+### Running from Spyder (or any other IDE)
+
+1. Make sure the Python environment Spyder uses has the dependencies. In the
+   Spyder IPython console run
+
+   ```
+   %pip install networkx PyMuPDF Jinja2 click rich
+   ```
+
+   then restart the kernel (*Consoles → Restart kernel*). With Anaconda,
+   everything except `PyMuPDF` is usually already installed.
+2. Open [`run_linter.py`](run_linter.py) and press **F5**. The linter window
+   opens; the Spyder console is busy until you close it.
+
+No `pip install -e .` is needed for this; if a dependency is missing,
+`run_linter.py` prints the exact `%pip install` command to run.
+
+### Installing as a package
 
 ```bash
 python3 -m venv .venv
-source .venv/bin/activate
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e .
 ```
 
-This installs the `schematic-linter` command (backed by `networkx`,
-`PyMuPDF`, `Jinja2`, `click`, and `rich`).
+This installs two commands: `schematic-linter-gui` (the window) and
+`schematic-linter` (the command line). `python -m schematic_linter` opens
+the window too. Dependencies: `networkx`, `PyMuPDF`, `Jinja2`, `click`,
+`rich`, plus `tkinter` (part of the standard Windows/macOS Python; on Linux
+install your distribution's `python3-tk`).
 
-### Standalone Windows build
+## Using the GUI
 
-For running on a Windows machine with no Python installed at all, see
-[`packaging/windows/`](packaging/windows/): a PyInstaller spec and build
-script that produce a single self-contained `schematic-linter.exe`. It's
-built and smoke-tested on a real Windows runner by
-[`.github/workflows/windows.yml`](../.github/workflows/windows.yml) on every
-push.
+1. **Project folder**: choose the folder holding the design. It must
+   contain **exactly one** `.ndf` netlist, and may contain **one** eBOM
+   `.csv` and **one** schematic `.pdf`. The window shows right away which
+   files it found (or what's wrong with the folder). Without an eBOM,
+   value-based checks are limited; without a PDF, the report has no
+   schematic snippets.
+2. **Report folder** (optional): where to write the results. Left empty, it
+   defaults to `Reports/<project folder name>/` (an existing `Reports`
+   folder next to or one level above the project folder, otherwise a new one
+   next to it).
+3. **Checks** tab: switch individual checks on or off.
+   **Thresholds** tab: tune the numeric limits some checks use.
+4. **Run checks**. The *Log* tab shows progress, the error/warning/info
+   counts appear at the bottom, and the report opens in the browser.
 
-## Usage
+All choices are remembered between sessions (in
+`%APPDATA%\SchematicLinter\settings.json` on Windows). **Save profile...**
+writes just the check selection and thresholds to a `.json` file you can
+hand to colleagues (**Load profile...**) or use on the command line
+(`--profile`), so a team can share one agreed configuration. If a run used
+disabled checks or non-default thresholds, the report says so at the top.
+
+## Command line
 
 ```bash
-schematic-linter analyze path/to/ProjectFolder
+schematic-linter analyze path/to/ProjectFolder [--output DIR] [--profile team.json] [--disable RULE_ID ...]
+schematic-linter list-rules     # all checks and their RULE_IDs
+schematic-linter gui            # open the window
 ```
 
-`ProjectFolder` must contain **exactly one** `.ndf` netlist, and may
-optionally contain **one** eBOM `.csv` and **one** schematic `.pdf`. By
-default, output is written to `Reports/<ProjectFolder name>/` (found by
-walking up from the project folder for an existing `Reports` sibling
-directory; falls back to creating one next to the project folder). Use
-`--output DIR` to override.
+The process exits non-zero if any `Error`-severity finding was produced,
+so it's usable as a CI gate.
+
+From Python, `schematic_linter.cli.run_analysis(project_dir, output_dir=None,
+enabled_rules=None, thresholds=None)` runs an analysis and prints the
+summary without calling `sys.exit()`; it returns `(exit_code, result)`.
+
+## Output
 
 Two files are produced:
 
@@ -52,9 +102,6 @@ Two files are produced:
   as base64 images, so it's a single file you can email/archive).
 - `graph.json` — the full component/net graph, saved independently of the
   report so it can be reused/inspected later without re-parsing anything.
-
-The process exits non-zero if any `Error`-severity finding was produced,
-so it's usable as a CI gate.
 
 `report.html` is interactive: click any of the Findings/Errors/Warnings/Infos
 badges at the top to hide/show findings of that severity (click it again, or
@@ -74,7 +121,13 @@ netlist (+ eBOM, + PDF)
 
 Patterns and rules are each auto-discovered from their package (one file
 per pattern/rule) — adding either is just adding a new file that exports
-`recognize()` (patterns) or `evaluate()` (rules).
+`recognize()` (patterns) or `evaluate()` (rules). A rule module should also
+define `RULE_ID`, `RULE_NAME` and a one-sentence `RULE_DESCRIPTION` (shown
+in the GUI's Checks tab and in `list-rules`), and `RULE_REQUIRES_BOM = True`
+if it can't run without an eBOM. A threshold becomes tunable in the GUI by
+adding it to `config.TUNABLE_THRESHOLDS`; rules must then read it as
+`config.NAME` at call time rather than importing the name directly, or a
+changed value won't take effect.
 
 ### Findings
 
@@ -162,6 +215,9 @@ inherently can't produce a meaningful signal without the eBOM at all (only
 pip install -e ".[dev]"
 pytest
 ```
+
+`tests/test_gui.py` drives the real window through a full run; it's
+skipped automatically where `tkinter` or a display isn't available.
 
 The test suite includes unit tests per parser/pattern/rule module plus an
 end-to-end test that runs the full pipeline against `TestData/Projekt1`

@@ -28,17 +28,15 @@ from __future__ import annotations
 from collections import Counter, defaultdict
 from typing import Dict, List, Optional, Tuple
 
-from ..config import (
-    SIBLING_GROUP_MIN_SIZE,
-    SIBLING_MIN_COMMON_PIN_NAMES,
-    SIBLING_NET_RESOLVE_MAX_HOPS,
-    Severity,
-)
+from .. import config
+from ..config import Severity
 from ..graph.model import CircuitGraph, Component, Pin
 from ..graph.net_resolve import canonicalize_net
 from .base import Finding, RuleContext
 
 RULE_ID = "sibling_pin_mismatch"
+RULE_NAME = "Pin wired differently on repeated parts"
+RULE_DESCRIPTION = "On a part used 3+ times, one instance's pin goes to a different net than the same pin on all the others (e.g. a swapped pin)."
 
 
 def _net_for_pin_name(graph: CircuitGraph, ref_des: str, pin_name: str) -> Tuple[Optional[str], Optional[Pin]]:
@@ -70,12 +68,12 @@ def evaluate(ctx: RuleContext) -> List[Finding]:
     findings: List[Finding] = []
 
     for comp_type, components in sorted(_group_by_comp_type(ctx.graph).items()):
-        if len(components) < SIBLING_GROUP_MIN_SIZE:
+        if len(components) < config.SIBLING_GROUP_MIN_SIZE:
             continue
 
         components = sorted(components, key=lambda c: c.ref_des)
         common_pin_names = _common_pin_names(components)
-        if len(common_pin_names) < SIBLING_MIN_COMMON_PIN_NAMES:
+        if len(common_pin_names) < config.SIBLING_MIN_COMMON_PIN_NAMES:
             continue
 
         for pin_name in sorted(common_pin_names):
@@ -85,11 +83,11 @@ def evaluate(ctx: RuleContext) -> List[Finding]:
                 net_name, pin = _net_for_pin_name(ctx.graph, component.ref_des, pin_name)
                 if net_name is None:
                     continue  # unconnected -- covered by other rules
-                canonical = canonicalize_net(ctx.graph, net_name, SIBLING_NET_RESOLVE_MAX_HOPS)
+                canonical = canonicalize_net(ctx.graph, net_name, config.SIBLING_NET_RESOLVE_MAX_HOPS)
                 per_component[component.ref_des] = (net_name, canonical, pin)
 
             total = len(per_component)
-            if total < SIBLING_GROUP_MIN_SIZE:
+            if total < config.SIBLING_GROUP_MIN_SIZE:
                 continue
 
             canonical_counts = Counter(v[1] for v in per_component.values())

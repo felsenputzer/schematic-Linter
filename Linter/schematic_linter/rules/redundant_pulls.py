@@ -9,6 +9,8 @@ from ..config import Severity
 from .base import Finding, RuleContext
 
 RULE_ID = "redundant_pulls"
+RULE_NAME = "Redundant pull-ups / pull-downs"
+RULE_DESCRIPTION = "Two or more pull-ups (or pull-downs) on the same net."
 
 
 def _check(ctx: RuleContext, kind: str, label: str) -> List[Finding]:

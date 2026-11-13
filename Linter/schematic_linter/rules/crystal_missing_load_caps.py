@@ -9,6 +9,8 @@ from ..config import Severity
 from .base import Finding, RuleContext
 
 RULE_ID = "crystal_missing_load_caps"
+RULE_NAME = "Crystal missing load capacitors"
+RULE_DESCRIPTION = "A crystal with fewer than two load capacitors to ground."
 
 _EXPECTED_LOAD_CAPS = 2
 

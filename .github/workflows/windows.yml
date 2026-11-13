@@ -28,7 +28,7 @@ jobs:
         run: pytest -v
 
   build-and-smoke-test-windows:
-    name: Build + smoke-test standalone .exe (windows-latest)
+    name: Build + smoke-test standalone .exes (windows-latest)
     needs: test-windows
     runs-on: windows-latest
     defaults:
@@ -45,7 +45,7 @@ jobs:
         working-directory: Linter/packaging/windows
         run: .\build.ps1
 
-      - name: Smoke test the built exe against TestData/Projekt1
+      - name: Smoke test the built CLI exe against TestData/Projekt1
         run: |
           $exe = "Linter\packaging\windows\dist\schematic-linter.exe"
           if (-not (Test-Path $exe)) {
@@ -81,8 +81,37 @@ jobs:
           Write-Host "Smoke test passed: exe ran standalone, exit code $exitCode, report.html and graph.json produced."
           exit 0
 
-      - name: Upload built exe
+      - name: Smoke test the built GUI exe against TestData/Projekt1
+        run: |
+          $exe = "Linter\packaging\windows\dist\SchematicLinter.exe"
+          if (-not (Test-Path $exe)) {
+            Write-Error "Build did not produce $exe"
+            exit 1
+          }
+
+          # --smoke-test opens the real window, clicks through one full run
+          # programmatically and exits with the CLI's exit code. It's a
+          # windowed (no-console) exe, so wait for it via Start-Process.
+          $outputDir = "smoke-test-gui-output"
+          $proc = Start-Process -FilePath $exe -ArgumentList "--smoke-test", "TestData\Projekt1", $outputDir -Wait -PassThru
+          if ($proc.ExitCode -ne 1) {
+            Write-Error "Expected exit code 1 from the GUI smoke test, got $($proc.ExitCode)"
+            exit 1
+          }
+          foreach ($file in @("report.html", "graph.json")) {
+            $path = Join-Path $outputDir $file
+            if (-not (Test-Path $path)) {
+              Write-Error "Expected output file was not produced: $path"
+              exit 1
+            }
+          }
+          Write-Host "GUI smoke test passed."
+          exit 0
+
+      - name: Upload built exes
         uses: actions/upload-artifact@v4
         with:
           name: schematic-linter-windows
-          path: Linter/packaging/windows/dist/schematic-linter.exe
+          path: |
+            Linter/packaging/windows/dist/SchematicLinter.exe
+            Linter/packaging/windows/dist/schematic-linter.exe

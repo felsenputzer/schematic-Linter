@@ -12,6 +12,8 @@ from ._pin_naming import GROUND_PIN_NAME_RE, POWER_PIN_NAME_RE
 from .base import Finding, RuleContext
 
 RULE_ID = "unconnected_power_pin"
+RULE_NAME = "Unconnected power/ground pin"
+RULE_DESCRIPTION = "A pin named like a supply or ground pin that isn't connected to anything."
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:

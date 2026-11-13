@@ -11,6 +11,8 @@ from ._common_source import branch_groups, feed_resistors, is_negligible
 from .base import Finding, RuleContext
 
 RULE_ID = "shared_rc_resistor"
+RULE_NAME = "Resistor shared by two RC filters"
+RULE_DESCRIPTION = "A resistor with a filter capacitor on both of its nets, coupling two filters together."
 
 
 def _is_source_side_artifact(ctx: RuleContext, match, groups) -> bool:

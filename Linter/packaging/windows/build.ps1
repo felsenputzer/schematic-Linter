@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Builds a standalone schematic-linter.exe for Windows using PyInstaller.
+    Builds standalone SchematicLinter.exe (GUI) and schematic-linter.exe (CLI) for Windows using PyInstaller.
 
 .DESCRIPTION
     Installs the project (and PyInstaller) into whatever Python environment
@@ -34,5 +34,7 @@ finally {
     Pop-Location
 }
 
-$ExePath = Join-Path $ScriptDir "dist\schematic-linter.exe"
-Write-Host "Build complete: $ExePath"
+$DistDir = Join-Path $ScriptDir "dist"
+Write-Host "Build complete:"
+Write-Host "  GUI (give this to users): $(Join-Path $DistDir 'SchematicLinter.exe')"
+Write-Host "  Command line:             $(Join-Path $DistDir 'schematic-linter.exe')"

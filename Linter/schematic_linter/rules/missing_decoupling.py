@@ -12,6 +12,9 @@ from ..graph.model import ComponentKind
 from .base import Finding, RuleContext
 
 RULE_ID = "missing_decoupling"
+RULE_NAME = "IC power pin without decoupling cap"
+RULE_DESCRIPTION = "An IC power pin whose power net has no decoupling capacitor."
+RULE_REQUIRES_BOM = True
 
 
 def evaluate(ctx: RuleContext) -> List[Finding]:
