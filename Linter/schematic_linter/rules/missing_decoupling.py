@@ -1,4 +1,4 @@
-"""An IC power pin with no decoupling capacitor on its power net may cause
+"""An IC (or active oscillator) power pin with no decoupling capacitor on its power net may cause
 noise issues. Only runs when the eBOM is present, per spec, since telling
 a genuine IC power pin apart from other pins with confidence benefits from
 BOM-backed component identity."""
@@ -12,8 +12,8 @@ from ..graph.model import ComponentKind
 from .base import Finding, RuleContext
 
 RULE_ID = "missing_decoupling"
-RULE_NAME = "IC power pin without decoupling cap"
-RULE_DESCRIPTION = "An IC power pin whose power net has no decoupling capacitor."
+RULE_NAME = "IC/oscillator power pin without decoupling cap"
+RULE_DESCRIPTION = "An IC or oscillator power pin whose power net has no decoupling capacitor."
 RULE_REQUIRES_BOM = True
 
 
@@ -25,7 +25,10 @@ def evaluate(ctx: RuleContext) -> List[Finding]:
     decoupled_power_nets = {m.details["power_net"] for m in ctx.matches_of("decoupling_cap")}
     seen_pairs = set()
 
-    for ic in ctx.graph.components_by_kind(ComponentKind.IC):
+    active_parts = ctx.graph.components_by_kind(ComponentKind.IC) + ctx.graph.components_by_kind(
+        ComponentKind.OSCILLATOR
+    )
+    for ic in active_parts:
         for net_name in ctx.graph.nets_of(ic.ref_des):
             net = ctx.graph.get_net(net_name)
             if net is None or not net.is_power:

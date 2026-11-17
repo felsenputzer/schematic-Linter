@@ -181,7 +181,14 @@ inherently can't produce a meaningful signal without the eBOM at all (only
 - Component classification and value parsing are heuristic (reference
   designator prefix + component-type/description keywords). They're
   table-driven and easy to extend, but an unusual part-numbering scheme
-  could still be misclassified as `OTHER`.
+  could still be misclassified as `OTHER`. Prefix convention: `Y` =
+  crystals and oscillators, `X` = special test points. When the library
+  symbol (netlist component type) clearly names a different part family
+  than the prefix, the symbol wins, and the mismatch is reported by the
+  `designator_kind_mismatch` rule (info). `Y` parts are split into
+  passive crystals (checked for load caps) and active oscillators
+  (checked for decoupling like ICs) using the symbol/eBOM text, supply/
+  output pin names and whether any pin sits on a POWER net.
 - **Power/ground anchor nets are taken *only* from the netlist's own
   `NET_TYPE` tag** (`POWER`/`GROUND`/blank) -- there is deliberately no
   name-based guessing (e.g. "starts with V", "contains RAW"). An earlier

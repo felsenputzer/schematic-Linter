@@ -1,5 +1,6 @@
-"""Crystal/oscillator with its load capacitors (each resonator leg
-optionally decoupled to ground by a capacitor)."""
+"""Passive crystal with its load capacitors (each resonator leg
+optionally decoupled to ground by a capacitor). Active oscillators
+(``ComponentKind.OSCILLATOR``) have no resonator legs and are skipped."""
 
 from __future__ import annotations
 

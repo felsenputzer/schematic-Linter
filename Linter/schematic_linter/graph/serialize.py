@@ -45,6 +45,8 @@ def graph_to_dict(graph: CircuitGraph, metadata: Optional[Dict[str, Any]] = None
             "value": _value_to_dict(c.value),
             "value_source": c.value_source,
             "bom_description": c.bom_description,
+            "kind_source": c.kind_source,
+            "classification_notes": c.classification_notes,
         }
         for ref_des, c in graph.components.items()
     }
@@ -78,6 +80,8 @@ def dict_to_graph(data: Dict[str, Any]) -> CircuitGraph:
             value=_value_from_dict(c.get("value")),
             value_source=c.get("value_source", "unknown"),
             bom_description=c.get("bom_description"),
+            kind_source=c.get("kind_source", "none"),
+            classification_notes=c.get("classification_notes", []),
         )
         graph.add_component(component)
 

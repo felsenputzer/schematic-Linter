@@ -9,7 +9,7 @@ from ..parsers.bom_parser import BomEntry
 from ..parsers.netlist_parser import PinRecord
 from ..parsers.value_parser import ValueKind, ValueParseError, parse_value
 from .anchors import anchor_flags_for_net
-from .classifier import classify_component
+from .classifier import classify
 from .model import CircuitGraph, Component, ComponentKind, Net, Pin
 
 # Only these kinds have an eBOM "VALUE" column that represents an
@@ -23,6 +23,7 @@ _VALUE_KIND_FOR_COMPONENT_KIND = {
     ComponentKind.CAPACITOR: ValueKind.CAPACITANCE,
     ComponentKind.INDUCTOR: ValueKind.INDUCTANCE,
     ComponentKind.CRYSTAL: ValueKind.FREQUENCY,
+    ComponentKind.OSCILLATOR: ValueKind.FREQUENCY,
 }
 
 VALUE_SOURCE_EBOM = "ebom"
@@ -57,7 +58,14 @@ def build_graph(
         bom_entry = bom_entries.get(ref_des)
         bom_description = bom_entry.description if bom_entry else None
 
-        kind = classify_component(ref_des, comp_types, bom_description)
+        classification = classify(
+            ref_des,
+            comp_types,
+            bom_description,
+            pin_names=[r.pin_name for r in records],
+            on_power_net=any(r.is_power for r in records),
+        )
+        kind = classification.kind
 
         value = None
         value_kind = _VALUE_KIND_FOR_COMPONENT_KIND.get(kind)
@@ -86,6 +94,8 @@ def build_graph(
             value=value,
             value_source=value_source,
             bom_description=bom_description,
+            kind_source=classification.source,
+            classification_notes=list(classification.notes),
         )
         graph.add_component(component)
 

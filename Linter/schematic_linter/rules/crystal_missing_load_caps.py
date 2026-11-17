@@ -1,4 +1,4 @@
-"""A crystal/oscillator normally needs two load capacitors (one per
+"""A passive crystal normally needs two load capacitors (one per
 resonator leg, to ground). Fewer than that is worth a second look."""
 
 from __future__ import annotations

@@ -27,7 +27,8 @@ class ComponentKind(str, Enum):
     DIODE = "DIODE"
     TRANSISTOR = "TRANSISTOR"
     IC = "IC"
-    CRYSTAL = "CRYSTAL"
+    CRYSTAL = "CRYSTAL"  # passive resonator (needs load caps)
+    OSCILLATOR = "OSCILLATOR"  # active clock module (needs decoupling)
     CONNECTOR = "CONNECTOR"
     TESTPOINT = "TESTPOINT"
     OTHER = "OTHER"
@@ -55,6 +56,10 @@ class Component:
     value: Optional[ParsedValue] = None
     value_source: str = "unknown"  # "ebom" | "unknown" | "not_applicable"
     bom_description: Optional[str] = None
+    # Which evidence decided ``kind`` (see graph.classifier) and any
+    # disagreements between ref-des / library symbol / eBOM description.
+    kind_source: str = "none"
+    classification_notes: List[str] = field(default_factory=list)
 
     def pin_names(self) -> List[str]:
         return [p.pin_name for p in self.pins]
